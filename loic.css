@@ -7,7 +7,6 @@ a {
 	position: relative;
 	text-decoration: none;
 	width:80px;
-	vertical-align: center;
 }
 .l{
 	width:150px;
@@ -22,6 +21,7 @@ nav{
 	margin: 0px;
 	padding: 0px;
 	position:relative;
+	bottom: 0px;
 }
 .bar{
 	width: 100%;
