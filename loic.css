@@ -1,12 +1,13 @@
 a {
 	//display : block;
 	float : right;
-	
-	padding-left: 20px;
-	
+	background-color: pink;
+	padding: 0 10px;
+
 	position: relative;
 	text-decoration: none;
 	width:80px;
+	vertical-align: center;
 }
 .l{
 	width:150px;
@@ -21,9 +22,6 @@ nav{
 	margin: 0px;
 	padding: 0px;
 	position:relative;
-	top:50%;
-	
-	height:150px;
 }
 .bar{
 	width: 100%;
