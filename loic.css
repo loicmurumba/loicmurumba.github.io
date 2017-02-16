@@ -1,7 +1,7 @@
 a {
 	//display : block;
 	float : right;
-	background-color:#ccc;
+	color:#fff;
 	border:solid white 1px;
 	text-decoration-color: white;
 	padding: 0 10px;
@@ -11,10 +11,11 @@ a {
 	vertical-align: middle;
 	text-align: center;
 	font-family: arial;
+	line-height: 50px;
 
 }
 a:hover{
-	background-color: #aaa;
+	background-color: rgba(0,0,0,.3);
 
 }
 .wasteman{
