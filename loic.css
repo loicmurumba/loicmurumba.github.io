@@ -64,6 +64,6 @@ nav{
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-
+	border-bottom:solid 3px black;
 
 }
