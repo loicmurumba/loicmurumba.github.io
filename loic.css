@@ -6,7 +6,7 @@ a {
 	text-decoration-color: white;
 	padding: 0 10px;
 	text-decoration: none;
-	width:80px;
+	width:60px;
 	height: 50px;
 	vertical-align: middle;
 	text-align: center;
@@ -14,7 +14,7 @@ a {
 	line-height: 50px;
 	font-size: 10px;
 	font-weight: 100;
-
+font-stretch: semi-expanded;
 
 }
 .l{
@@ -29,14 +29,14 @@ a {
 	font-size: 36px;
 	font-weight: 100;
 	position: absolute;
-	bottom:80px;
+	bottom:65px;
 	width: 100%;
 	text-align: center;
 	font-family: "Lucida Grande", sans-serif;
 }
 h3.frt{
 	font-size: 18px;
-	bottom:70px;
+	bottom:55px;
 }
 a:hover{
 	background-color: rgba(0,0,0,.3);
@@ -79,5 +79,9 @@ nav{
 
 }
 .abt{
-	display: inline;
+	position: absolute;
+	top:450px;
 }
+h2 { 
+text-align: center;
+ }
