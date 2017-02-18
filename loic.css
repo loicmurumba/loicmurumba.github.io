@@ -6,7 +6,7 @@ a {
 	text-decoration-color: white;
 	padding: 0 10px;
 	text-decoration: none;
-	width:60px;
+	width:55px;
 	height: 50px;
 	vertical-align: middle;
 	text-align: center;
@@ -15,10 +15,10 @@ a {
 	font-size: 10px;
 	font-weight: 100;
 font-stretch: semi-expanded;
-
+font-variant-caps: all-small-caps;
 }
 .l{
-	width:150px;
+	width:100px;
 	font-family: "Lucida Grande", sans-serif;
 	font-size: 10px;
 	font-weight: 100;
