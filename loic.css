@@ -3,7 +3,7 @@ a {
 	float : right;
 	color:#fff;
 
-	text-decoration-color: white;
+	text-decoration-color: black;
 	padding: 0 10px;
 	text-decoration: none;
 	width:55px;
@@ -101,7 +101,7 @@ p{
 	height: 30%;
 	position: absolute;
 	top:100%;
-	background-image: url('boat.jpg'); 
+	background-image: url('desks.jpg'); 
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
