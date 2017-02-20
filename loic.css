@@ -159,3 +159,33 @@ p.abt{
 .test{
 	position: relative;
 }
+#proj{
+	top:200%;
+}
+#projects{
+	top:220%;
+	height:140%;
+}
+#work{
+	top:360%;
+}
+#work-container{
+	top:385%;
+}
+.items{
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	margin-top: 5%;
+	margin-bottom: 0;
+	margin-left: 2.2%;
+	height: 15%;
+	background-color: #fff;
+}
+.items.desc{
+	margin-top: 0;
+	height: 20%;
+}
+#last{
+	display: block;
+}
