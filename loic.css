@@ -186,7 +186,7 @@ h4{
 }
 #waterloop{
 	left:50%;
-	
+	border: solid white 1.5px;
 	background-image: url('waterloop.png');
 
 }
