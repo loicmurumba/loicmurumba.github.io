@@ -16,25 +16,44 @@ a {
 	font-weight: 100;
 	font-variant: small-caps;
 }
+@font-face {
+    font-family: 'geometria_lightlight';
+    src: url('geometria-light-webfont.eot');
+    src: url('geometria-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('geometria-light-webfont.woff2') format('woff2'),
+         url('geometria-light-webfont.woff') format('woff'),
+         url('geometria-light-webfont.ttf') format('truetype'),
+         url('geometria-light-webfont.svg#geometria_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+	font-family: 'geometria_lightlight';
+}
 .l{
 	width:110px;
 	font-family: "Lucida Grande", sans-serif;
 	font-weight: 100;
 }
 .frt{
-	clear:both;
 	color: white;
 	font-size: 36px;
 	font-weight: 100;
 	position: absolute;
-	bottom:65px;
+	bottom: 20%;
 	width: 100%;
 	text-align: center;
 	font-family: "Lucida Grande", sans-serif;
+	font-family: 'geometria_lightlight';
 }
 h3.frt{
 	font-size: 18px;
-	bottom:55px;
+	bottom:15%;
+}
+.col{
+	color: #0B108C;
 }
 a:hover{
 	background-color: rgba(0,0,0,.3);
@@ -56,9 +75,13 @@ nav{
 	margin: 0px;
 	padding: 0px;
 	position:fixed;
-	top: 5px;
-	right:5px;
+
+	padding-right:5px;
+	width: 100%;
+	top:0;
+	right:0;
 	min-width: 700px;
+	background-color: rgba(0,0,0,.3);
 }
 .bar{
 	width: 100%;
@@ -71,68 +94,109 @@ nav{
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
-	background-size: cover;
-	border-bottom:solid 3px black;
-
+	background-size: 100%;
+	border-bottom:solid 3px white;
 }
 .abt{
+		font-family: 'geometria_lightlight';
+}
+div.abt{
 	position: absolute;
-	top:62%;
+	top:55%;
+	border-top: solid white 2px;
+	border-bottom: solid white 2px;
 	margin: 0 auto;
 	text-align: center;
-	
+	height: 44.3%;
+	/*background: linear-gradient(to bottom left, rgba(240,220,250,1), rgba(215,210,255,1)); */
 }
 h2.cen{ 
 	position:relative;
 	text-align: center;
-	top:0px;
+	top:25%;
 	padding:  0 10%;
 	margin: 0 20%;
-border-bottom: solid black 1px;
+	border-color: #0C0F66;
+	border-bottom: solid 1px;
  }
 p.abt{
 	position: relative;
 	margin: 0 auto;
 	width: 80%;
-	top:20px;
+	top:30%;
+}
+p{
+
+	margin-top: 5px;
+}
+h4{
+
+	margin-bottom: 5px;
+	margin-top: 0px;
+	top:0;
+	position: relative;
 }
 .aca-banner{
 	width: 100%;
 	margin: 0px;
+	border-top: solid white 2.5px;
 	padding: 0px;
-	min-height: 200px;
+	min-height: 100px;
 	height: 25%;
 	position: absolute;
 	top:100%;
-	background-image: url('desk.jpg'); 
+	background-image: url('desks.jpg'); 
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
 	background-size: cover;
-	border-bottom:solid 3px black;
 }
 .logo{
-	background-color: #555;
 	position: absolute;
 	width: 10vw;
 	height: 10vw;
-	top: 25px;
-	
+	top: 6vh;
+	background-color: rgba(0,0,0,0);
 	margin: 0px;
-	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 #waterloo{
 	left: 2%;
+	background-image: url('waterloo.png');
 }
 #dover{
 	left:50%;
+	background-image: url('dbay.png');
 }
 #horatio{
 	width: 100%;
 	position: absolute;
-	min-width: 35%;
+	
 	height:25%;
-	bottom: 25%;
+	bottom: 30%;
+}
+#horati{
+	background-image: url('horatio.png');
+}
+#logiq{
+	left: 2%;
+	background-image: url('logiq3.png');
+}
+#waterloop{
+	left:50%;
+	
+	background-image: url('waterloop.png');
+
+}
+#midsun{
+	background-image: url('midsun.png');
+
+}
+.texthold.award{
+	width:80%;
+
 }
 .aca{
 	width: 100%;
@@ -143,6 +207,8 @@ p.abt{
 	background-color: #bbb;
 	position: absolute;
 	width: 100%;
+	border-top: solid white 2.5px;
+	background: linear-gradient(to bottom right, #107FC9, #49DDDD); /* Standard syntax */
 }
 .subt{
 
@@ -150,7 +216,13 @@ p.abt{
 .texthold{
 	position: absolute;
 	left:15%;
+	top:6vh;
 	width:32%;
+
+}
+p, .subt{
+	font-family: 'geometria_lightlight';
+	color: white;
 }
 #dove{
 	position: absolute;
@@ -161,10 +233,12 @@ p.abt{
 }
 #proj{
 	top:200%;
+	height: 20%;
 }
 #projects{
 	top:220%;
 	height:140%;
+	background:white;
 }
 #work{
 	top:360%;
@@ -178,13 +252,14 @@ p.abt{
 	width: 30%;
 	margin-top: 5%;
 	margin-bottom: 0;
+	margin-top: 2.2%;
 	margin-left: 2.2%;
-	height: 15%;
+	height: 20%;
 	background-color: #fff;
 }
 .items.desc{
 	margin-top: 0;
-	height: 20%;
+	height: 25%;
 }
 #last{
 	display: block;
