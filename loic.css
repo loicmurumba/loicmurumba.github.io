@@ -44,6 +44,7 @@ h1{
 	position: absolute;
 	bottom: 20%;
 	width: 100%;
+	font-weight: 100;
 	text-align: center;
 	font-family: "Lucida Grande", sans-serif;
 	font-family: 'geometria_lightlight';
@@ -250,7 +251,7 @@ p, .subt{
 #sh{
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0,0,0,.5);
+	background-color: rgba(0,0,0,.15);
 }
 .pros{
 	display: inline-block;
