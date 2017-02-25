@@ -1,5 +1,4 @@
 a {
-	//display : block;
 	float : right;
 	color:#fff;
 transition: background-color .4s ease-in-out;
@@ -55,9 +54,10 @@ h1{
 h3.frt{
 	font-size: 1em;
 	bottom:15%;
+
 }
 .col{
-	color: #0B108C;
+color:#000;
 }
 a:hover{
 		line-height: 50px;
@@ -100,7 +100,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: cover;
 	border-bottom:solid 3px white;
 }
 .abt{
@@ -109,27 +109,30 @@ body{
 div.abt{
 	position: absolute;
 	top:55%;
-	border-top: solid white 2px;
-	border-bottom: solid white 2px;
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
 	margin: 0 auto;
 	text-align: center;
-	height: 44.3%;
+	height: 45%;
 	/*background: linear-gradient(to bottom left, rgba(240,220,250,1), rgba(215,210,255,1)); */
 }
 h2.cen{ 
 	position:relative;
 	text-align: center;
-	top:25%;
+	top:15%;
 	padding:  0 10%;
 	margin: 0 20%;
-	border-color: #0C0F66;
+	padding-bottom: 5px;
+	font-size: 1.7em;
 	border-bottom: solid 1px;
  }
 p.abt{
 	position: relative;
 	margin: 0 auto;
 	width: 80%;
-	top:30%;
+	top:20%;
+	font-size: 1.2em;
+
 }
 p{
 
@@ -145,12 +148,12 @@ h4{
 .aca-banner{
 	width: 100%;
 	margin: 0px;
-	border-top: solid white 2.5px;
 	padding: 0px;
 	min-height: 100px;
 	height: 25%;
 	position: absolute;
 	top:100%;
+	border-top: solid black 2px;
 	background-image: url('desks.jpg'); 
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -168,6 +171,7 @@ h4{
 	background-position: center;
 	background-size: contain;
 }
+
 #waterloo{
 	left: 2%;
 	background-image: url('waterloo.png');
