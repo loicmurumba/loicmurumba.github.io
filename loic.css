@@ -160,6 +160,9 @@ h4{
 	background-attachment: fixed;
 	background-size: cover;
 }
+em{
+	font-weight: 100;
+}
 .logo{
 	position: absolute;
 	width: 10vw;
@@ -171,7 +174,10 @@ h4{
 	background-position: center;
 	background-size: contain;
 }
-
+h4.time{
+font-size: .7em;
+color: rgba(255,255,255,.8);
+}
 #waterloo{
 	left: 2%;
 	background-image: url('waterloo.png');
@@ -196,7 +202,7 @@ h4{
 }
 #waterloop{
 	left:50%;
-	border: solid white 1.5px;
+	border: solid lightgray 1.5px;
 	background-image: url('waterloop.png');
 
 }
@@ -275,18 +281,43 @@ p, .subt{
 		box-shadow: 0px 6px 20px 0px #eee;
 }
 .items{
-	
+	background-size: cover;
 	position: relative;
 	width: 100%;
-	height: 35%;
+	height: 45%;
+	border: solid #555 1px;
 	background-color: #fff;
+	border-bottom: solid #555 0px;
 }
 .items.desc{
 	margin-top: 0;
-	height: 65%;
-
+	height: 55%;
+	overflow: hidden;
 	background-color: #fff;
+	border: solid #555 1px;
 }
+ .desc > h4{
+ 	width: 100%;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	border-bottom: solid #555 1px;
+ 	color: #555;
+ 	font-family: "geometria_lightlight"
+ } .desc > p{
+ 	padding:0px 15px;
+ 	padding-bottom: 5px;
+ }
 .projdesc{
 	color: black;
+}
+#delt{
+background-image: url(deltadiet.jpg);
+}
+#quikpic{
+background-image: url(.jpg);
+
+}
+#pw{
+	background-image: url(web.png);
 }
