@@ -2,12 +2,13 @@ a {
 	//display : block;
 	float : right;
 	color:#fff;
-transition: background-color .3s ease-in-out;
-transition: font-size .3s ease-in-out;
+transition: background-color .4s ease-in-out;
+transition: font-size .8s ease-in-out;
 transition: width .3s ease-in-out;
 	text-decoration-color: black;
 	padding: 0 10px;
 	text-decoration: none;
+	margin-right: 0; 
 	width:55px;
 	height: 50px;
 	vertical-align: middle;
@@ -41,7 +42,7 @@ h1{
 }
 .frt{
 	color: white;
-	font-size: 36px;
+	font-size: 2em;
 	font-weight: 100;
 	position: absolute;
 	bottom: 20%;
@@ -52,7 +53,7 @@ h1{
 	font-family: 'geometria_lightlight';
 }
 h3.frt{
-	font-size: 18px;
+	font-size: 1em;
 	bottom:15%;
 }
 .col{
@@ -61,16 +62,12 @@ h3.frt{
 a:hover{
 		line-height: 50px;
 	background-color: rgba(0,0,0,.1);
-	font-size: 85%;
+	/*font-size: 85%;*/
 	width: 75px;
 }a.l:hover{
-	font-size: 82%;
+	/*font-size: 82%;*/
 	width: 130px;
 
-}
-.wasteman{
-	height:500%;
-	width:0px;
 }
 
 body{
@@ -85,7 +82,7 @@ body{
 	padding: 0px;
 	position:fixed;
 	transition: background-color .3s ease-in-out;
-	padding-right:5px;
+	padding-right:0px;
 	width: 100%;
 	top:0;
 	right:0;
@@ -224,9 +221,9 @@ h4{
 }
 .texthold{
 	position: absolute;
-	left:15%;
+	left:14%;
 	top:6vh;
-	width:32%;
+	width:34%;
 
 }
 p, .subt{
@@ -235,7 +232,7 @@ p, .subt{
 }
 #dove{
 	position: absolute;
-	left:63%;
+	left:62%;
 }
 .test{
 	position: relative;
@@ -263,7 +260,8 @@ p, .subt{
 	background-color: rgba(0,0,0,.15);
 }
 .pros{
-	display: inline-block;
+	display: block;
+	float:left;
 		margin-top: 5%;
 	margin-bottom: 0%;
 	margin-top: 2.2%;
@@ -284,5 +282,7 @@ p, .subt{
 	height: 65%;
 
 	background-color: #fff;
-
+}
+.projdesc{
+	color: black;
 }
