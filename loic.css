@@ -8,16 +8,21 @@ transition: width .3s ease-in-out;
 	padding: 0 10px;
 	text-decoration: none;
 	margin-right: 0; 
-	width:55px;
-	height: 50px;
+	width:70px;
+	height: 80px;
 	vertical-align: middle;
 	text-align: center;
-	font-family: "Lucida Grande", sans-serif;
-	line-height: 50px;
-	font-size: 11px;
+	font-family: 'Roboto', sans-serif;;
+	line-height: 80px;
+	font-size: 16px;
 	font-weight: 100;
 	font-variant: small-caps;
 }
+@font-face {
+	font-family:"SD Georgia Light";
+src:url("SD_Georgia_Light.eot?") format("eot"),url("SD_Georgia_Light.woff") format("woff"),url("SD_Georgia_Light.ttf") format("truetype"),url("SD_Georgia_Light.svg#SDGeorgiaLight") format("svg");
+font-weight:normal;
+font-style:normal;}
 @font-face {
     font-family: 'geometria_lightlight';
     src: url('geometria-light-webfont.eot');
@@ -36,36 +41,41 @@ h1{
 }
 .l{
 	width:110px;
-	font-family: "Lucida Grande", sans-serif;
 	font-weight: 100;
 }
 .frt{
 	color: white;
+	position: absolute;
+	margin: 0;
 	font-size: 2em;
 	font-weight: 100;
-	position: absolute;
-	bottom: 20%;
+	top: 50%;
+
+    transform: translateY(-50%);
 	width: 100%;
 	font-weight: 100;
 	text-align: center;
-	font-family: "Lucida Grande", sans-serif;
+
 	font-family: 'geometria_lightlight';
+}
+.sh{
+	width: 100%;
+margin: 0px;
+	height: 100%;
+	background-color: rgba(0,0,0,.15);
 }
 h3.frt{
 	font-size: 1em;
-	bottom:15%;
+	top:60%;
 
 }
 .col{
 color:#000;
 }
 a:hover{
-		line-height: 50px;
-	background-color: rgba(0,0,0,.1);
-	/*font-size: 85%;*/
-	width: 75px;
+	background-color: rgba(255,255,255,.1);
+	width: 90px;
 }a.l:hover{
-	/*font-size: 82%;*/
 	width: 130px;
 
 }
@@ -202,12 +212,12 @@ color: rgba(255,255,255,.8);
 }
 #waterloop{
 	left:50%;
-	border: solid lightgray 1.5px;
-	background-image: url('waterloop.png');
+	background-image: url('midsun.png');
 
 }
 #midsun{
-	background-image: url('midsun.png');
+
+		background-image: url('waterloop.png');
 
 }
 .texthold.award{
@@ -223,9 +233,15 @@ color: rgba(255,255,255,.8);
 	background-color: #bbb;
 	position: absolute;
 	width: 100%;
-	border-top: solid white 2.5px;
-	background: linear-gradient(to bottom right, #107FC9, #49DDDD); /* Standard syntax */
+	border-top: solid #fff 2px;
+	/*background: linear-gradient(to bottom right, #107FC9, #49DDDD); 57160d/* Standard syntax */
+	background: linear-gradient(to bottom, #3B4054, #502924)
 }
+
+
+
+
+
 .subt{
 
 }
@@ -251,24 +267,24 @@ p, .subt{
 	top:200%;
 	height: 25%;
 	background-image: url(qhack.jpg);
+	border-top: solid #fff 2px;
 }
 #projects{
 	top:225%;
 	height:140%;
-	background:white;
+	background: linear-gradient(to bottom right, #fff, #ccc);
 }
 #work{
 	background-image: url(workex.jpg);
 	top:365%;
+	border-top: solid white 2px;
 }
 #work-container{
-	top:385%;
+	background: linear-gradient(to bottom, #3B4054, #1085DE);
+	
+	top:390%;
 }
-#sh{
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,.15);
-}
+
 .pros{
 	display: block;
 	float:left;
@@ -278,7 +294,7 @@ p, .subt{
 	margin-left: 2.2%;
 	width: 30%;
 	height: 45%;
-		box-shadow: 0px 6px 20px 0px #eee;
+		box-shadow: 0px 6px 20px 0px #aaa;
 }
 .items{
 	background-size: cover;
@@ -293,7 +309,7 @@ p, .subt{
 	margin-top: 0;
 	height: 55%;
 	overflow: hidden;
-	background-color: #fff;
+	background-color: #555;
 	border: solid #555 1px;
 }
  .desc > h4{
@@ -303,21 +319,40 @@ p, .subt{
  	padding-bottom: 10px;
  	border-bottom: solid #555 1px;
  	color: #555;
+ 	font-size: 1.3em;
+ 	background-color: #fff;
+ 	margin: 0;
  	font-family: "geometria_lightlight"
  } .desc > p{
- 	padding:0px 15px;
+ 	margin: 0;
+ 	font-weight: 100;
+ 	font-size: 100%;
+ 	padding:10px 15px;
  	padding-bottom: 5px;
+ 	line-height: 110%;
+ 	color: white;
+ 	font-family: 'Roboto', sans-serif;
  }
-.projdesc{
-	color: black;
-}
+ p{
+ 	font-family: 'Roboto', sans-serif;
+ 	line-height: 160%;
+ }
 #delt{
 background-image: url(deltadiet.jpg);
 }
 #quikpic{
-background-image: url(.jpg);
-
+background-image: url(quikpic.png);
+background-size: 60% 100%;
+background-repeat: no-repeat;
+background-position: center;
 }
 #pw{
 	background-image: url(web.png);
+}
+footer{
+	position: absolute;
+	background-color: #aaa;
+	bottom:-30%;
+	width: 100%;
+	height: 30%;
 }
