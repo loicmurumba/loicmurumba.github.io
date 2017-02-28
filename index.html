@@ -31,7 +31,7 @@ $(function() {
 
 		if (height > 150){
 			$(".navbar").css({
-				 "background-color": "rgba(0,0,0,0.5)"
+				 "background-color": "rgba(0,0,0,0.8)"
 			});
 			$(".loic").css({
 				  "color": "white"
@@ -59,11 +59,11 @@ $(function() {
 </head>
 	<body>
 		<div class = "bar" id="about">
-		<div class="sh">
+			<div class="sh">
 			<h1 class="frt">Loïc Murumba</h1>
 			<h3 class="frt">Waterloo ECE Student</h3>
+			</div>
 		</div>
-</div>
 		<div class="abt">
 			<h2 class="cen col">About</h2>
 			<p class="abt col">Welcome to my website! You'll find a bunch of information about me and the things I enjoy doing, as well as a list of my achievements and experience working and volunteering. I'm an engineering student with a passion for programming and design, and I'm currently looking for a co-op position for the upcoming fall term. I made this website to expand my javascript, HTML, and jquery; I hope you enjoy it!
@@ -229,26 +229,52 @@ $(function() {
 				</div>
 			
 			</div>
-
+		</div>
+			<footer id="footer">
+				<div class="foot">
+				<div id="line">
+					<h5 class="contact">Contact info</h5>
+				</div>
+					<div class="infoc">
+						<div class="icon" id="git"></div>
+						<a class="links" href="">
+							github
+						</a>
+					</div>
+					<div class="infoc">
+						<div class="icon" id="git"></div>
+						<a class="links" href="">
+							linkedin
+						</a>
+					</div>
+					<div class="infoc">
+						<div class="icon" id="git"></div>
+						<a class="links" href="">
+							email
+						</a>
+					</div>
+				
+				</div>
+			</footer>
 
 			<nav class="navbar">
 				<h5 class="loic">Loïc Murumba</h5>
-				<a href="#footer">
+				<a class="b" href="#footer">
 					contact
 				</a>
-				<a href="#proj">
+				<a class="b" href="#proj">
 					projects	
 				</a>
-				<a href="#academia">
+				<a class="b" href="#academia">
 					academia
 				</a>
-				<a class="l" href="#work">
+				<a class="b" id="l" href="#work">
 					work experience
 				</a>
-				<a href="#about">
+				<a class="b" href="#about">
 					about
 				</a>
 			</nav>
-			<footer id="footer">Contact</footer>
+
 	</body>
 </html>
