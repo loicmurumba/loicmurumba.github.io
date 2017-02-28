@@ -10,7 +10,6 @@ transition: width .3s ease-in-out;
 	margin-right: 0; 
 	width:70px;
 	height: 80px;
-	vertical-align: middle;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;;
 	line-height: 80px;
@@ -35,6 +34,14 @@ font-style:normal;}
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'antic';
+    src: url('antic-didone.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 h1{
 	font-family: 'geometria_lightlight';
@@ -68,6 +75,18 @@ h3.frt{
 	font-size: 1em;
 	top:60%;
 
+}
+.loic{
+	position: absolute;
+	left: 5%;
+	margin: 0;
+	height: 100%;
+	line-height: 80px;
+	font-weight: 100; 
+	font-family: 'antic';
+	color: rgba(0,0,0,0);
+	transition: color .4s ease-in-out;
+	font-size: 2em;
 }
 .col{
 color:#000;
@@ -309,7 +328,7 @@ p, .subt{
 	margin-top: 0;
 	height: 55%;
 	overflow: hidden;
-	background-color: #555;
+	background-color: #888;
 	border: solid #555 1px;
 }
  .desc > h4{

@@ -20,7 +20,7 @@ $(function() {
       }
     }
   });
-});
+}); 
 
 
 	$(window).scroll(function(){
@@ -31,15 +31,20 @@ $(function() {
 
 		if (height > 150){
 			$(".navbar").css({
-				 "background-color": "rgba(0,0,0,0.3)"
+				 "background-color": "rgba(0,0,0,0.5)"
 			});
-
+			$(".loic").css({
+				  "color": "white"
+			});
 		}
 		else{
 					$(".navbar").css({
 				"background-color": "rgba(0,0,0,0)"
 					});
-				console.log(height);
+					$(".loic").css({
+				 "color": "rgba(0,0,0,0)"
+			});
+				
 		}
 	});
 </script>
@@ -227,6 +232,7 @@ $(function() {
 
 
 			<nav class="navbar">
+				<h5 class="loic">Loïc Murumba</h5>
 				<a href="#footer">
 					contact
 				</a>
