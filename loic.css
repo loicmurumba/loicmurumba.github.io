@@ -55,7 +55,7 @@ h1{
 	position: absolute;
 	margin: 0;
 	font-size: 2em;
-	font-weight: 100;
+	
 	top: 50%;
 
     transform: translateY(-50%);
@@ -64,12 +64,14 @@ h1{
 	text-align: center;
 
 	font-family: 'geometria_lightlight';
+	font-family: 'Roboto';
+	font-weight: 200;
 }
 .sh{
 	width: 100%;
 margin: 0px;
 	height: 100%;
-	background-color: rgba(0,0,0,.15);
+	background-color: rgba(0,0,0,.2);
 }
 h3.frt{
 	font-size: 1em;
@@ -97,6 +99,9 @@ a:hover{
 }#l:hover{
 	width: 130px;
 
+}
+.navbar:hover{
+	background-color: rgba(0,0,0,0.8); 
 }
 
 body{
