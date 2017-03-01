@@ -8,6 +8,11 @@
 <script type="text/javascript">
  
 $(function() {
+	$('.navbar').hover(function(){
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,0.8)"
+			});
+	})
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
