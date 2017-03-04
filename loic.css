@@ -304,7 +304,7 @@ p, .subt{
 #work{
 	background-image: url(workex.jpg);
 	top:100%;
-	border-top: solid white 2px;
+	border-top: solid black 2px;
 }
 #work-container{
 	background: linear-gradient(to top, #3B4054, #1085DE);
