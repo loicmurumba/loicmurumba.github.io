@@ -67,6 +67,9 @@ h1{
 	font-family: 'Roboto';
 	font-weight: 200;
 }
+.lower{
+	transform: translateY(50px);
+}
 .sh{
 	width: 100%;
 margin: 0px;
@@ -186,7 +189,7 @@ h4{
 	min-height: 100px;
 	height: 25%;
 	position: absolute;
-	top:100%;
+	top:200%;
 	border-top: solid black 2px;
 	background-image: url('desks.jpg'); 
 	background-repeat: no-repeat;
@@ -251,7 +254,7 @@ color: rgba(255,255,255,.8);
 .aca{
 	width: 100%;
 	height: 75%;
-	top:125%;
+	top:225%;
 	min-width: 600px;
 	min-height: 400px;
 	background-color: #bbb;
@@ -288,25 +291,26 @@ p, .subt{
 	position: relative;
 }
 #proj{
-	top:200%;
+	top:300%;
 	height: 25%;
 	background-image: url(qhack.jpg);
 	border-top: solid #fff 2px;
 }
 #projects{
-	top:225%;
+	top:325%;
 	height:140%;
 	background: linear-gradient(to bottom right, #fff, #ccc);
 }
 #work{
 	background-image: url(workex.jpg);
-	top:365%;
+	top:100%;
 	border-top: solid white 2px;
 }
 #work-container{
 	background: linear-gradient(to top, #3B4054, #1085DE);
 	
-	top:390%;
+	top:125%;
+	border-bottom: solid white 2px;
 }
 
 .pros{
@@ -387,6 +391,7 @@ footer{
 	background-image: url(contact.jpg);
 	background-attachment: fixed;
 	background-size: cover;
+	border-top: solid white 2px;
 }
 .contact{
 	width: 100%;
@@ -430,7 +435,7 @@ clear: both;
 	float: left;
 	margin: 1px;
 	padding: 0;
-	height: 15px;
-	width: 15px;
+	height: 20px;
+	width: 20px;
 	background-color: white;
 }

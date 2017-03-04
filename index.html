@@ -8,11 +8,7 @@
 <script type="text/javascript">
  
 $(function() {
-	$('.navbar').hover(function(){
-		$(".navbar").css({
-				 "background-color": "rgba(0,0,0,0.8)"
-			});
-	})
+	
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -43,6 +39,11 @@ $(function() {
 			$(".loic").css({
 				  "color": "white"
 			});
+			$('.navbar').hover(function(){
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,0.9)"
+			});
+	})
 		}
 		else{
 					$(".navbar").css({
@@ -67,8 +68,8 @@ $(function() {
 	<body>
 		<div class = "bar" id="about">
 			<div class="sh">
-			<h1 class="frt">Loïc Murumba</h1>
-			<h3 class="frt">Waterloo ECE Student</h3>
+			<h1 class="frt lower">Loïc Murumba</h1>
+			<h3 class="frt lower">Waterloo ECE Student</h3>
 			</div>
 		</div>
 		<div class="abt">
@@ -91,9 +92,10 @@ $(function() {
 				<h4 class="subt">University of Waterloo</h4>
 				<h4 class="time subt"><strong>Waterloo, ON</strong> //<em> 2016 - Present</em></h4>
 				<p>- Pursuing Bachelor of Applied Science in Electrical Engineering </br>
-				- Ranked __/155 for 1A academic term </br>
+				- Ranked 23/155 for 1A academic term </br>
 				- Active member of two student design teams</br> 
-				- Scored __% in fundamentals of programming class (C++)
+				- Scored 100% in fundamentals of programming class (C++)
+
 				</p>
 			
 			</div>
