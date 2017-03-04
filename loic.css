@@ -403,15 +403,24 @@ footer{
 	font-family: 'antic';
 	font-size: 2em;
 	padding-bottom: 5px;
+	margin: 0;
+	margin-top: 3%;
+
 	border-bottom: solid white 1px;
 }
 a.links{
 	position: relative;
 float: left;
 margin: 0;
+padding-left: 17px;
 color: white;
+font-size: 125%;
 font-family: 'antic';
 text-decoration: none;
+}
+a.links:hover{
+	background-color: rgba(0,0,0,0);
+	text-decoration: underline;
 }
 #line{
 	position: relative;
@@ -420,22 +429,30 @@ text-decoration: none;
 	margin-bottom: 0;	
 }
 .infoc{
-	margin-top:5px; 
+	margin-top:2%; 
 	margin-bottom: 15px;
 	display: block;
 	overflow: hidden;
-	left: 25%;
+	left: 30%;
 	width: 50%;
 	position: relative;
-top:-20%;
 clear: both;
 
 }
 .icon{
 	float: left;
-	margin: 1px;
+	margin: 0;
 	padding: 0;
 	height: 20px;
 	width: 20px;
-	background-color: white;
+	background-size: 100% 100%;
+}
+#git{
+background-image: url(git.png);
+}
+#linked{
+background-image: url(linked.png);
+}
+#email{
+	background-image: url(email.png);
 }
