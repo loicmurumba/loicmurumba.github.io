@@ -29,16 +29,16 @@ $(function() {
 
   	$('.navbar').hover(function(){
 		
-		var height = $(this).scrollTop();
+		var height = $(window).scrollTop();
 			console.log("WTF");
 		$(".navbar").css({
 				 "background-color": "rgba(0,0,0,0.9)"
 			});
 	},function(){
-		var height = $(this).scrollTop();
-		console.log("WTF");
+		var height = $(window).scrollTop();
+		console.log(height);
 
-		if (height > 150) {
+		if (height/$(window).height() > 0.3) {
 		$(".navbar").css({
 				 "background-color": "rgba(0,0,0,0.3)"
 			});
@@ -74,7 +74,7 @@ $(function() {
 			});
 		}	
 
-		if (height > 150){
+		if (height/$(window).height() > 0.3){
 			$(".navbar").css({
 				 "background-color": "rgba(0,0,0,0.3)"
 			});
@@ -221,7 +221,24 @@ $(function() {
 							<p class="projdesc">I'm always working on something new...
 							</p>
 					</div>
+					</div>
 
+						<div class="pros" id="pro4">
+					<div class="items"></div>
+					<div class="items desc" id="last">
+							<h4>More to come</h4>
+							<p class="projdesc">I'm always working on something new...
+							</p>
+					</div>
+					</div>
+
+						<div class="pros" id="pro4">
+					<div class="items"></div>
+					<div class="items desc" id="last">
+							<h4>More to come</h4>
+							<p class="projdesc">I'm always working on something new...
+							</p>
+					</div>
 					</div>
 				</div>
 
