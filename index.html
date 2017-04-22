@@ -8,7 +8,12 @@
 <script type="text/javascript">
  
 $(function() {
-	
+	var height = $(this).scrollTop();
+	if (height/$(window).height() > 1.4) {
+			$("#slide").css({
+				  "top": "0px"
+			});
+		}	
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -21,7 +26,32 @@ $(function() {
       }
     }
   });
+
+  	$('.navbar').hover(function(){
+		
+		var height = $(this).scrollTop();
+			console.log("WTF");
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,0.9)"
+			});
+	},function(){
+		var height = $(this).scrollTop();
+		console.log("WTF");
+
+		if (height > 150) {
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,0.3)"
+			});
+	}
+	else{
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,0)"
+			});
+	}
+	})
 }); 
+	
+
 
 
 	$(window).scroll(function(){
@@ -30,7 +60,19 @@ $(function() {
 		$(".foot").css({
 				 "background-position": "0px "+(height/4 - 500)+"px"
 			});	
+			console.log(height/$(window).height());
 
+
+		if (height/$(window).height() > 1.4) {
+			$("#slide").css({
+				  "top": "0px"
+			});
+		}
+		else if(height/$(window).height() < 1){
+				$("#slide").css({
+				  "top": "40%"
+			});
+		}	
 
 		if (height > 150){
 			$(".navbar").css({
@@ -39,11 +81,7 @@ $(function() {
 			$(".loic").css({
 				  "color": "white"
 			});
-			$('.navbar').hover(function(){
-		$(".navbar").css({
-				 "background-color": "rgba(0,0,0,0.9)"
-			});
-	})
+			
 		}
 		else{
 					$(".navbar").css({
@@ -55,6 +93,8 @@ $(function() {
 				
 		}
 	});
+
+
 </script>
 
 
@@ -68,7 +108,7 @@ $(function() {
 	<body>
 		<div class = "bar" id="about">
 			<div class="sh">
-			<h1 class="frt lower">Loïc Murumba</h1>
+			<h1 class="frt lower">Loic Murumba</h1>
 			<h3 class="frt lower">Waterloo ECE Student</h3>
 			</div>
 		</div>
@@ -142,45 +182,50 @@ $(function() {
 
 		<div class="aca-banner" id="proj"><h1 class="frt">Projects</h1></div>
 		<div class="aca" id="projects">
-				
-				<div class="pros" id="pro1">
-					<div class="items" id="pw">
-						
+				<div id="projects-container">
+					<div id="slide">
+					<div class="pros" id="pro1">
+						<div class="items" id="pw">
+							
+						</div>
+						<div class="items desc">
+							<h4>Personal Website</h4>
+							<p class="projdesc">The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, and JQuery to bring this to life. It took a few weeks and quite a bit of trial and error to get every detail working; hopefully you're enjoying it! You can view the code on github here.
+							</p>
+						</div>
 					</div>
+
+					<div class="pros"  id="pro2">
+					<div class="items" id="delt"></div>
+						<div class="items desc">
+							<h4>Delta Diet</h4>
+							<p class="projdesc">This is the first app I've ever worked on; basically it works as a tracker for your daily macronutrients that can be fine tuned by a doctor. I created this with the help of a few students at a hackathon and learned a lot about to use android studio. You can view the code on github here.
+							</p>
+						</div>
+					</div>
+					
+					<div class="pros"  id="pro3">
+					<div class="items" id="quikpic"></div>
 					<div class="items desc">
-						<h4>Personal Website</h4>
-						<p class="projdesc">The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, and JQuery to bring this to life. It took a few weeks and quite a bit of trial and error to get every detail working; hopefully you're enjoying it! You can view the code on github here.
-						</p>
+							<h4>Quick Pic</h4>
+							<p class="projdesc">A chrome extension that reduces the image load time on websites your browser visits by sending them to an external server before they're loaded. The server would then lower the image resolution and send it back to your browser for a faster experience. I learned a lot more about node.js and some javascript functions while working on this!
+							You can view the code here.
+							</p>
+						</div>
+					</div>
+					
+					<div class="pros" id="pro4">
+					<div class="items"></div>
+					<div class="items desc" id="last">
+							<h4>More to come</h4>
+							<p class="projdesc">I'm always working on something new...
+							</p>
+					</div>
+
 					</div>
 				</div>
 
-				<div class="pros"  id="pro2">
-				<div class="items" id="delt"></div>
-					<div class="items desc">
-						<h4>Delta Diet</h4>
-						<p class="projdesc">This is the first app I've ever worked on; basically it works as a tracker for your daily macronutrients that can be fine tuned by a doctor. I created this with the help of a few students at a hackathon and learned a lot about to use android studio. You can view the code on github here.
-						</p>
 					</div>
-				</div>
-				
-				<div class="pros"  id="pro3">
-				<div class="items" id="quikpic"></div>
-				<div class="items desc">
-						<h4>Quick Pic</h4>
-						<p class="projdesc">A chrome extension that reduces the image load time on websites your browser visits by sending them to an external server before they're loaded. The server would then lower the image resolution and send it back to your browser for a faster experience. I learned a lot more about node.js and some javascript functions while working on this!
-						You can view the code here.
-						</p>
-					</div>
-				</div>
-				
-				<div class="pros" id="pro4">
-				<div class="items"></div>
-				<div class="items desc" id="last">
-						<h4>More to come</h4>
-						<p class="projdesc">I'm always working on something new...
-						</p>
-				</div>
-				</div>
 		</div>
 
 
@@ -270,7 +315,7 @@ $(function() {
 			</footer>
 
 			<nav class="navbar">
-				<h5 class="loic">Loïc Murumba</h5>
+				<h5 class="loic">Loic Murumba</h5>
 				<a class="b" href="#footer">
 					contact
 				</a>

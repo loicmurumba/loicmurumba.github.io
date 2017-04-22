@@ -74,7 +74,7 @@ h1{
 	width: 100%;
 margin: 0px;
 	height: 100%;
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.1);
 }
 h3.frt{
 	font-size: 1em;
@@ -103,9 +103,7 @@ a:hover{
 	width: 130px;
 
 }
-.navbar:hover{
-	background-color: rgba(0,0,0,0.8); 
-}
+
 
 body{
 	margin: 0px;
@@ -116,6 +114,7 @@ body{
 }
 .navbar{
 	margin: 0px;
+	overflow: hidden;
 	padding: 0px;
 	position:fixed;
 	transition: background-color .3s ease-in-out;
@@ -133,11 +132,11 @@ body{
 	height: 55%;
 	position: absolute;
 	top:0px;
-	background-image: url('boats.jpg'); 
+	background-image: url('city.jpg'); 
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: 100%;
 	border-bottom:solid 3px white;
 }
 .abt{
@@ -189,7 +188,7 @@ h4{
 	min-height: 100px;
 	height: 25%;
 	position: absolute;
-	top:200%;
+	top:340%;
 	border-top: solid black 2px;
 	background-image: url('desks.jpg'); 
 	background-repeat: no-repeat;
@@ -254,7 +253,7 @@ color: rgba(255,255,255,.8);
 .aca{
 	width: 100%;
 	height: 75%;
-	top:225%;
+	top:365%;
 	min-width: 600px;
 	min-height: 400px;
 	background-color: #bbb;
@@ -291,15 +290,16 @@ p, .subt{
 	position: relative;
 }
 #proj{
-	top:300%;
+	top:200%;
 	height: 25%;
 	background-image: url(qhack.jpg);
 	border-top: solid #fff 2px;
 }
 #projects{
-	top:325%;
+	top:225%;
 	height:140%;
 	background: linear-gradient(to bottom right, #fff, #ccc);
+	float:left;
 }
 #work{
 	background-image: url(workex.jpg);
@@ -312,19 +312,39 @@ p, .subt{
 	top:125%;
 	border-bottom: solid white 2px;
 }
+#projects-container{
+	height: 100%;
+	margin:auto;
+
+	width:85%;
+	
+padding: 0;
+}
+#slide{
+	position: absolute;
+	height: 100%;
+	top:40%;
+	margin:0;
+	padding: 0;
+	transition: top 1s ease-in-out;
+	width: 100%;
+
+}
 
 .pros{
-	display: block;
+	display: inline;
 	float:left;
-		margin-top: 5%;
+	position: relative;
+	margin-top: 5%;
 	margin-bottom: 0%;
 	margin-top: 2.2%;
 	margin-left: 2.2%;
-	width: 30%;
+	width: 350px;
 	height: 45%;
 		box-shadow: 0px 6px 20px 0px #aaa;
 }
 .items{
+
 	background-size: cover;
 	position: relative;
 	width: 100%;
@@ -337,7 +357,7 @@ p, .subt{
 	margin-top: 0;
 	height: 55%;
 	overflow: hidden;
-	background-color: #888;
+	background-color: #fff;
 	border: solid #555 1px;
 }
  .desc > h4{
@@ -346,19 +366,19 @@ p, .subt{
  	padding-top: 10px;
  	padding-bottom: 10px;
  	border-bottom: solid #555 1px;
- 	color: #555;
+ 	color: #fff;
  	font-size: 1.3em;
- 	background-color: #fff;
+ 	background-color: #555;
  	margin: 0;
  	font-family: "geometria_lightlight"
  } .desc > p{
  	margin: 0;
- 	font-weight: 100;
+ 	font-weight: 700;
  	font-size: 100%;
  	padding:10px 15px;
  	padding-bottom: 5px;
  	line-height: 110%;
- 	color: white;
+ 	color: #000;
  	font-family: 'Roboto', sans-serif;
  }
  p{
