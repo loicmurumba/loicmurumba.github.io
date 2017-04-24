@@ -34,6 +34,9 @@ $(function() {
 		$(".navbar").css({
 				 "background-color": "rgba(0,0,0,0.9)"
 			});
+		$("a.b").css({
+				 "color": "#fff"
+			});
 	},function(){
 		var height = $(window).scrollTop();
 		console.log(height);
@@ -46,6 +49,9 @@ $(function() {
 	else{
 		$(".navbar").css({
 				 "background-color": "rgba(0,0,0,0)"
+			});
+		$("a.b").css({
+				 "color": "#000"
 			});
 	}
 	})
@@ -81,6 +87,12 @@ $(function() {
 			$(".loic").css({
 				  "color": "white"
 			});
+			$("a.b").css({
+				 "color": "#fff"
+			});
+			$("a.b").css({
+				// "font-weight": "100"
+			});
 			
 		}
 		else{
@@ -91,6 +103,15 @@ $(function() {
 				 "color": "rgba(0,0,0,0)"
 			});
 				
+			$("a.b").css({
+				 "color": "#000"
+			});
+			$("a.b").css({
+				 "font-weight": "700"
+			});
+			
+			
+
 		}
 	});
 

@@ -1,6 +1,6 @@
 a.b {
 	float : right;
-	color:#fff;
+	color:#000;
 transition: background-color .4s ease-in-out;
 transition: font-size .8s ease-in-out;
 transition: width .3s ease-in-out;
@@ -14,7 +14,7 @@ transition: width .3s ease-in-out;
 	font-family: 'Roboto', sans-serif;;
 	line-height: 80px;
 	font-size: 16px;
-	font-weight: 100;
+	font-weight: 700;
 	font-variant: small-caps;
 }
 @font-face {
@@ -74,7 +74,7 @@ h1{
 	width: 100%;
 margin: 0px;
 	height: 100%;
-	background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,0);
 }
 h3.frt{
 	font-size: 1em;
@@ -315,7 +315,7 @@ p, .subt{
 #projects-container{
 	height: 100%;
 	margin:auto;
-
+	overflow: hidden;
 	width:85%;
 	
 padding: 0;
