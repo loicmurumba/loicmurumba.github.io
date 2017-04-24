@@ -3,6 +3,7 @@ a.b {
 	color:#000;
 transition: background-color .4s ease-in-out;
 transition: font-size .8s ease-in-out;
+transition: color .4s ease-in-out;
 transition: width .3s ease-in-out;
 	text-decoration-color: black;
 	padding: 0 10px;
