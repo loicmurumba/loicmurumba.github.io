@@ -48,7 +48,7 @@ h1{
 	font-family: 'geometria_lightlight';
 }
 #l{
-	width:110px;
+	width:110px;f
 }
 .frt{
 	color: white;
@@ -108,7 +108,7 @@ a:hover{
 body{
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden;
+	
 	max-width: 100%;
 	
 }
@@ -298,6 +298,8 @@ p, .subt{
 #projects{
 	top:225%;
 	height:140%;
+	overflow: hidden;
+
 	background: linear-gradient(to bottom right, #fff, #ddd);
 	float:left;
 }
@@ -314,15 +316,16 @@ p, .subt{
 }
 #projects-container{
 	height: 100%;
-	margin:auto;
-	overflow: hidden;
-	width:85%;
 	
-padding: 0;
+	
+	width:85%;
+		margin:0 auto;
+	padding: 0;
 }
 #slide{
 	position: absolute;
 	height: 100%;
+
 	top:40%;
 	margin:0;
 	padding: 0;
@@ -348,6 +351,7 @@ padding: 0;
 	background-size: cover;
 	position: relative;
 	width: 100%;
+	margin:0;
 	height: 45%;
 	border: solid #555 1px;
 	background-color: #fff;
