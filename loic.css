@@ -56,7 +56,7 @@ h1{
 	margin: 0;
 	font-size: 2em;
 	
-	top: 50%;
+	top: 40%;
 
     transform: translateY(-50%);
 	width: 100%;
@@ -108,7 +108,6 @@ a:hover{
 body{
 	margin: 0px;
 	padding: 0px;
-	
 	max-width: 100%;
 	
 }
