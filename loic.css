@@ -97,7 +97,7 @@ h3.frt{
 .col{
 color:#000;
 }
-a:hover{
+a.b:hover{
 	background-color: rgba(255,255,255,.1);
 	width: 90px;
 }#l:hover{
@@ -333,6 +333,15 @@ p, .subt{
 	width: 100%;
 
 }
+.proj-link{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+	font-family: 'PT Serif';
+}
 
 .pros{
 	display: inline;
@@ -372,9 +381,10 @@ p, .subt{
  	border-bottom: solid #555 1px;
  	color: #fff;
  	font-size: 1.3em;
+ 	font-weight: 100;
  	background-color: #555;
  	margin: 0;
- 	font-family: "geometria_lightlight"
+ 	font-family: "PT Serif";
  } .desc > p{
  	margin: 0;
  	font-weight: 700;
