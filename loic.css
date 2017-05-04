@@ -76,6 +76,7 @@ margin: 0px;
 	height: 100%;
 	background-color: rgba(0,0,0,0);
 }
+
 h3.frt{
 	font-size: 1em;
 	top:50%;
@@ -237,7 +238,7 @@ color: rgba(255,255,255,.8);
 }
 #waterloop{
 	left:50%;
-	background-image: url('midsun.png');
+	background-image: url('mlh.png');
 
 }
 #midsun{
