@@ -29,6 +29,36 @@ $(function() {
     }
   });
 
+  	$('.proj-link').hover(function(){
+  		$(this).css({
+				 "color": "#999"
+				 
+			
+			});
+
+  	},function(){
+  			$(this).css({
+				"color":"#000"
+			});
+
+  	});
+
+
+  	$('.pros').hover(function(){
+  		$(this).css({
+				 "width": "360px",
+				 "box-shadow": " 0px 6px 30px 4px #888",
+
+			});
+
+  	},function(){
+  			$(this).css({
+				 "width": "350px",
+				 "box-shadow": " 0px 3px 10px 0px #aaa"
+			});
+
+  	});
+
   	$('.navbar').hover(function(){
 		
 		var height = $(window).scrollTop();
@@ -207,14 +237,35 @@ $(function() {
 		<div class="aca" id="projects">
 				<div id="projects-container">
 					<div id="slide">
-					<div class="pros" id="pro1">
+
+					<div class="pros" id="pro0">
+					<div class="items"id="slice"></div>
+					<div class="items desc" id="last">
+							<h4>Slice</h4>
+							<p class="projdesc">I'm always working on something new...
+							</p>
+							<a class="proj-link" href="https://github.com/loicmurumba/loicmurumba.github.io">Github</a>
+					</div>
+					</div>
+
+					<div class="pros" id="pro01">
+					<div class="items" id="soar"></div>
+					<div class="items desc" >
+							<h4>Soar</h4>
+							<p class="projdesc">I'm always working on something new...
+							</p>
+							<a class="proj-link" href="https://github.com/loicmurumba/loicmurumba.github.io">Github</a>
+					</div>
+						</div>
+					<div class="pros">
 						<div class="items" id="pw">
 							
 						</div>
 						<div class="items desc">
 							<h4>Personal Website</h4>
-							<p class="projdesc">The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, and JQuery to bring this to life. It took a few weeks and quite a bit of trial and error to get every detail working; hopefully you're enjoying it! You can view the code on github here.
+							<p class="projdesc">The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, and JQuery to bring this to life. It took a few weeks and quite a bit of trial and error to get every detail working; hopefully you're enjoying it! 
 							</p>
+							<a class="proj-link" href="https://github.com/loicmurumba/loicmurumba.github.io">Github</a>
 						</div>
 					</div>
 
@@ -222,8 +273,9 @@ $(function() {
 					<div class="items" id="delt"></div>
 						<div class="items desc">
 							<h4>Delta Diet</h4>
-							<p class="projdesc">This is the first app I've ever worked on; basically it works as a tracker for your daily macronutrients that can be fine tuned by a doctor. I created this with the help of a few students at a hackathon and learned a lot about to use android studio. You can view the code on github here.
+							<p class="projdesc">This is the first app I've ever worked on; basically it works as a tracker for your daily macronutrients that can be fine tuned by a doctor. I created this with the help of a few students at a hackathon and learned a lot about to use android studio.
 							</p>
+							<a class="proj-link" href="https://github.com/jameslbonifacio/DeltaHacks3">Github</a>
 						</div>
 					</div>
 					
@@ -232,19 +284,13 @@ $(function() {
 					<div class="items desc">
 							<h4>Quick Pic</h4>
 							<p class="projdesc">A chrome extension that reduces the image load time on websites your browser visits by sending them to an external server before they're loaded. The server would then lower the image resolution and send it back to your browser for a faster experience. I learned a lot more about node.js and some javascript functions while working on this!
-							You can view the code here.
+							
 							</p>
-							<a class="proj-link">Github</a>
+							<a class="proj-link" href="https://github.com/loicmurumba/picloadextension">Github</a>
 						</div>
 					</div>
 					
-					<div class="pros" id="pro4">
-					<div class="items"></div>
-					<div class="items desc" id="last">
-							<h4>More to come</h4>
-							<p class="projdesc">I'm always working on something new...
-							</p>
-					</div>
+					
 
 					</div>
 				</div>
