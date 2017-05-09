@@ -1,23 +1,4 @@
-a.b {
-	float : right;
-	color:#000;
-transition: background-color .4s ease-in-out;
-transition: font-size .8s ease-in-out;
-transition: color .4s ease-in-out;
-transition: width .3s ease-in-out;
-	text-decoration-color: black;
-	padding: 0 10px;
-	text-decoration: none;
-	margin-right: 0; 
-	width:70px;
-	height: 80px;
-	text-align: center;
-	font-family: 'Roboto', sans-serif;;
-	line-height: 80px;
-	font-size: 16px;
-	font-weight: 700;
-	font-variant: small-caps;
-}
+
 @font-face {
 	font-family:"SD Georgia Light";
 src:url("SD_Georgia_Light.eot?") format("eot"),url("SD_Georgia_Light.woff") format("woff"),url("SD_Georgia_Light.ttf") format("truetype"),url("SD_Georgia_Light.svg#SDGeorgiaLight") format("svg");
@@ -41,6 +22,26 @@ font-style:normal;}
     font-weight: normal;
     font-style: normal;
 
+}
+a.b {
+	float : right;
+	color:#000;
+transition: background-color .4s ease-in-out;
+transition: font-size .8s ease-in-out;
+transition: color .4s ease-in-out;
+transition: width .3s ease-in-out;
+	text-decoration-color: black;
+	padding: 0 10px;
+	text-decoration: none;
+	margin-right: 0; 
+	width:70px;
+	height: 80px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 80px;
+	font-size: 16px;
+	font-weight: 700;
+	font-variant: small-caps;
 }
 
 
