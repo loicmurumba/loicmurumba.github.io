@@ -8,7 +8,8 @@
 <script type="text/javascript">google.load("jquery", "1.3.2");</script>
 <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:100" rel="stylesheet"> 
 <link rel="icon" type="image/png" href="icon.png">
-<script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
 
 <script type="text/javascript">
 
@@ -25,7 +26,7 @@ $(function()
 
 
 <title>Loic Murumba</title>
-<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
 </head>
@@ -35,36 +36,46 @@ $(function()
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid ">
 				<div class="navbar-header">
+
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target = "#navbar-div">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>		
 					<a class="navbar-brand" href="index.html">Loic Murumba</a>
+
+
 				</div>
-			
-			<ul class="nav navbar-nav navbar-right">
-			<li>
-				<a  href="#footer">
-					Work Experience
-				</a>
-			</li>
-			<li>
-				<a  href="#projects-container">
-					Projects
-				</a>
-			</li>
-			<li>
-				<a  href="#academia-container">
-					Academia
-				</a>
-			</li>
-			<li>
-				<a  href="#footer">
-					Contact
-				</a>
-			</li>
-			<li>
-				<a  href="loicmurumba_resume.pdf">
-					Resume
-				</a>
-			</li>
-			</ul>
+					
+			<div id="navbar-div" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a  href="#footer">
+							Work Experience
+						</a>
+					</li>
+					<li>
+						<a  href="#projects-container">
+							Projects
+						</a>
+					</li>
+					<li>
+						<a  href="#academia-container">
+							Academia
+						</a>
+					</li>
+					<li>
+						<a  href="#footer">
+							Contact
+						</a>
+					</li>
+					<li>
+						<a  href="loicmurumba_resume.pdf">
+							Resume
+						</a>
+					</li>
+				</ul>
+			</div>
 			</div>
 		</nav>
 
