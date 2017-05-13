@@ -6,6 +6,10 @@
     font-style: normal;
 
 }
+.navbar-space{
+	height: 80px;
+	margin: 0;
+}
 .jumbotron{
 	margin: 0px;
 	padding: 0px;
@@ -17,6 +21,10 @@
 	border-bottom:solid 3px white;
 color:#fff;
 width: 100%;
+}
+li a{
+	height: 80px;
+	line-height: 80px;
 }
 .jumbotron h1{
 	margin:0;
@@ -37,5 +45,6 @@ text-align: center;
 }
 .navbar{
 border:0;
+min-height: 80px;
 margin: 0;
 }
