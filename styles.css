@@ -23,6 +23,9 @@
 color:#fff;
 width: 100%;
 }
+#projects-container{
+	background-color:red;
+}
 li a{
 
 }
@@ -39,12 +42,25 @@ li a{
 	margin: 0;
 	padding-bottom:150px; 
 }
+.row{
+	width: 100%;
+}
 .title-text{
-
 text-align: center;
 }
 .navbar{
 border:0;
 
 margin: 0;
+}
+.section-title{
+	background-color:#aaa;
+	margin: 0;
+}
+.section-container{
+	margin:0;
+	padding: 0;
+}
+h2{
+	margin:0;
 }
