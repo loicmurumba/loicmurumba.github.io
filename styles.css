@@ -110,5 +110,13 @@ h2{
 }
 .first-row.row{
 	position: relative;
-	margin-top: 70px;
+	margin-top: 40px;
+}
+.image{
+	width: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: right;
+	padding-bottom: 60%;
+	border: solid 1px black;
 }
