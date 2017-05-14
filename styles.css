@@ -54,6 +54,7 @@ width: 100%;
 .section-container .col-md-4{
 	background-color: #e05770;
 	height: 350px;
+	overflow: hidden;
 }
 li a{
 
@@ -74,6 +75,10 @@ li a{
 	padding: 0;
 
 }
+.section-title h2{
+	text-align: center;
+	padding: 50px;
+}
 .jumbotron h3{
 
 	margin: 0;
@@ -91,7 +96,9 @@ border:0;
 margin: 0;
 }
 .section-title{
-	background-color:#aaa;
+	border:solid 1px black;
+	border-left: 0;
+	border-right: 0;
 	margin: 0;
 }
 .section-container{
@@ -100,4 +107,8 @@ margin: 0;
 }
 h2{
 	margin:0;
+}
+.first-row.row{
+	position: relative;
+	margin-top: 70px;
 }
