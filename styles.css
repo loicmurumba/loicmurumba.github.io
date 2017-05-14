@@ -41,6 +41,7 @@ width: 100%;
 }
 #projects-container{
 	background-color:white;
+	padding-bottom:0;
 }
 .project-image{
 	height: 30%;
@@ -78,6 +79,13 @@ li a{
 .section-title h2{
 	text-align: center;
 	padding: 50px;
+	color: white;
+}
+#workexperience-title{
+	background-image: ;
+}
+#academia-title{
+	background-image: ;
 }
 .jumbotron h3{
 
@@ -104,7 +112,8 @@ margin: 0;
 .section-container{
 	margin:0;
 	padding: 0;
-}
+	padding-bottom: 40px;
+	}
 h2{
 	margin:0;
 }
