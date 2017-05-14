@@ -19,12 +19,15 @@
 	background-attachment: fixed;
 	background-size: cover;
 	border-radius: 0;
-	border-bottom:solid 3px white;
+	border-bottom:solid 2px black;
 color:#fff;
 width: 100%;
 }
 #projects-container{
-	background-color:red;
+	background-color:white;
+}
+#projects-container .col-md-4{
+	background-color: red;
 }
 li a{
 
