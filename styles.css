@@ -165,6 +165,28 @@ h2{
 	background-image: url(images/mlh.png);
 }
 #horatio{
-		background-image: url(images/horatio.png);
-
+	background-image: url(images/horatio.png);
+}
+.project-image{
+	background-position: center;
+	background-size: 100%;
+}
+#slice{
+	background-image: url(images/slice.png);
+	background-size: 100%;
+	background-position: top;
+}
+#soar{
+	background-image: url(images/soar.png);
+}
+#deltadiet{
+	background-image: url(images/deltadiet.jpg);
+	background-position: top;
+}
+#website{
+	background-image: url(images/web.png);
+	background-position: top;
+}
+#quickpic{
+	background-image: url(images/quikpic.png);
 }
