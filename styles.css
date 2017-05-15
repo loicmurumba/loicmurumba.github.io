@@ -142,7 +142,29 @@ h2{
 	width: 60%;
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
 	float: right;
 	padding-bottom: 60%;
-	border: solid 1px black;
+
+}
+#waterloo{
+	background-image: url(images/waterloo.png);
+
+}
+#waterloop{
+	background-image: url(images/waterloop.png);
+		background-size: 100%;
+}
+#midsun{
+	background-image: url(images/midsun.png);
+}
+#logiq3{
+	background-image: url(images/logiq3.png);
+}
+#mlh{
+	background-image: url(images/mlh.png);
+}
+#horatio{
+		background-image: url(images/horatio.png);
+
 }
