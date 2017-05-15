@@ -80,12 +80,22 @@ li a{
 	text-align: center;
 	padding: 50px;
 	color: white;
+
 }
 #workexperience-title{
-	background-image: ;
+	background-image: url(images/workex.jpg);
 }
 #academia-title{
-	background-image: ;
+	background-image: url(images/desk.jpg);
+}
+#workexperience-container{
+	background-color: #2045aa;
+}
+#academia-container{
+	background-color: #aa4554;
+}
+.acad-workex .row{
+	margin-bottom: 20px;
 }
 .jumbotron h3{
 
@@ -108,18 +118,25 @@ margin: 0;
 	border-left: 0;
 	border-right: 0;
 	margin: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .section-container{
 	margin:0;
 	padding: 0;
 	padding-bottom: 40px;
 	}
+
 h2{
 	margin:0;
 }
 .first-row.row{
 	position: relative;
 	margin-top: 40px;
+}
+.col-xs-6 h3, .col-xs-6 h4, .col-xs-6 p{
+	color: white;
 }
 .image{
 	width: 60%;
