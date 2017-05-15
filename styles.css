@@ -88,11 +88,14 @@ li a{
 #academia-title{
 	background-image: url(images/desk.jpg);
 }
+#contact-title{
+	background-image: url(images/contact.jpg);
+}
 #workexperience-container{
-	background-color: #2045aa;
+	background: linear-gradient(to top, #3B4054, #1085DE);
 }
 #academia-container{
-	background-color: #aa4554;
+	background: linear-gradient(to bottom, #3B4054, #502924)
 }
 .acad-workex .row{
 	margin-bottom: 20px;
