@@ -45,17 +45,21 @@ width: 100%;
 }
 .project-image{
 	height: 30%;
-
-	width: 80%;
+background-size: cover;
+	width: 100%;
 	border: solid 2px white;
 	margin: 0 auto;
 	margin-top: 8%;
 }
-
+.contact-texts{
+	text-align: center;
+}
 .section-container .col-md-4{
 	background-color: #e05770;
 	height: 350px;
 	overflow: hidden;
+	padding-right:5%;
+	padding-left: 5%;
 }
 li a{
 
@@ -96,6 +100,12 @@ li a{
 }
 #academia-container{
 	background: linear-gradient(to bottom, #3B4054, #502924)
+}
+.white{
+	color:white;
+}
+.black{
+	color: black;
 }
 .acad-workex .row{
 	margin-bottom: 20px;
@@ -184,7 +194,6 @@ h2{
 }
 #deltadiet{
 	background-image: url(images/deltadiet.jpg);
-	background-position: top;
 }
 #website{
 	background-image: url(images/web.png);
@@ -192,4 +201,14 @@ h2{
 }
 #quickpic{
 	background-image: url(images/quikpic.png);
+}
+.col-xs-2.col-xs-offset-4{
+	border:solid 1px #1d5441;
+	background-color: #385e4f;
+	color: 
+
+}
+#contact-container{
+	border-bottom: solid 1px #1d5441;
+	background color: #273349;
 }
