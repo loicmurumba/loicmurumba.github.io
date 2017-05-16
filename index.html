@@ -30,38 +30,58 @@ $(function()
 			});
 	
 	},function(){
-		var height = $(window).scrollTop();
-
-
-
 		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,.4)"
+			});
+	})
+
+	$('.nav-link').hover(function(){
+		$(this).css({
+				 "background-color": "rgba(255,255,255,0.4)"
+			});
+	},function(){
+				$(this).css({
 				 "background-color": "rgba(0,0,0,0)"
 			});
 	})
 
-		$('.nav-link').hover(function(){
+    $('.github-link').hover(function(){
 		var width = $(this).width();
+		var height = $(this).height();
 		console.log(width);
-
 		$(this).css({
-				 "background-color": "rgba(255,255,255,0.4)"
-			});
-		$(this).css({
-				
+				"width": "50px",
+				"height": "50px"
 			});
 	
 	},function(){
 		var width = $(this).width();
-
-
-
+		var height = $(this).height();
 		$(this).css({
-				 "background-color": "rgba(0,0,0,0)"
-			});
-		$(this).css({
-				
+				 "width":"40px",
+				 "height": "40px"
 			});
 	})
+  $('#playstore').hover(function(){
+		var width = $(this).width();
+		var height = $(this).height();
+		console.log(width);
+		$(this).css({
+				"width": "120px",
+				"height": "50px"
+			});
+	
+	},function(){
+		var width = $(this).width();
+		var height = $(this).height();
+		$(this).css({
+				 "width":"100px",
+				 "height": "40px"
+			});
+	})
+
+
+
 
 
 
@@ -105,7 +125,7 @@ $(function()
 	<body>
 		
 
-		<nav class="navbar navbar-default navbar-fixed-top">
+		<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid ">
 				<div class="navbar-header">
 
@@ -173,12 +193,15 @@ $(function()
 					<h4 class="project-name">Slice</h4>
 					<p class="project-description">Real time online multiplayer only; uses a nodejs server and web sockets to quickly transmit game data to all clients. Client-side game programmed using HTML canvas and Javascript. Still in progress! Most of the backend is done, the game mechanics just need to be fleshed out</p>
 
-					<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
+					<div class="github-link" onclick="window.open('http://google.pl', '_blank');">
+						
+					</div>
 					</div>
 					<div class="col-md-4 white" id="soar-container">
 						<div class="project-image" id="soar"></div>
 						<h4 class="project-name">Soar</h4>
 						<p class="project-description">Platformer programmed in android studio using Java; implements a real-time database to keep track of the worldwide high score and reports it to every user. Available on the Google Playstore</p>
+						<div id="playstore" onclick="window.open('http://google.pl', '_blank');"></div>
 						<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
 					</div>
 					<div class="col-md-4 white" id="website-container">
@@ -186,7 +209,7 @@ $(function()
 						<h4 class="project-name">Portfolio Website</h4>
 						<p class="project-description">The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, Bootstrap, and JQuery to bring this to life. It took a few weeks and quite a bit of trial and error to get every detail working; hopefully you're enjoying it! </p>
 						<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
-						<div class="github-link" id="playstore" onclick="window.open('http://google.pl', '_blank');"></div>
+						
 					</div>
 				</div>
 					<div class="row">
