@@ -65,11 +65,37 @@ background-size: cover;
  line-height: 80px;
  padding: 0 15px;
  font-size: .85em;
+ transition: background-color .3s ease-in-out;
+ transition: width .3s ease-in-out;
+ width: 80px;
  font-weight: 100;
  text-transform: uppercase;
  height: 80px;
+
  text-align: center;
  color: white;
+}
+.navbar .container-fluid{
+padding: 0;
+
+}
+.navbar-default{
+	background-color: rgba(0,0,0,0);
+}
+#navbar-div{
+	 background-color: rgba(0,0,0,.3);
+	padding: 0 20px;
+	 border-top:0; 
+}
+#navbar-div #long{
+	width: 150px;
+}
+#navbar-div a:hover{
+	background-color: rgba(255,255,255,.1);
+	width: 100px;
+}#navbar-div #long:hover{
+	width: 170px;
+
 }
 p, h1, h2, h3, h4, a{
 	font-family: 'Roboto';
@@ -78,13 +104,16 @@ p, h1, h2, h3, h4, a{
  	font-family: 'antic';
  	font-size: 2em;
 	color: white;
+	padding-left: 40px; 
 	padding-top: 0;
 	padding-bottom: 0;
 	line-height: 80px;
 }
 .navbar{
 	height : 80px;
-	background-color: rgba(0,0,0,.4);
+	
+ transition: background-color .3s ease-in-out;
+
 }
 #projects-title h2{
 	text-align: center;
@@ -155,9 +184,26 @@ text-align: center;
 }
 .navbar{
 border:0;
-
-margin: 0;
+margin:0;
 }
+.github-link{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 10px;
+	right: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	background-image: url(images/git.png);
+}
+#playstore{
+	background-image: url(images/playstore.png);
+	right:60px;
+	width: 100px;
+}
+
 .section-title{
 	border:solid 1px black;
 	border-left: 0;
@@ -190,10 +236,14 @@ h2{
 	width: 60%;
 	background-repeat: no-repeat;
 	background-position: center;
+	max-width: 350px;
 	background-size: cover;
 	float: right;
 	padding-bottom: 60%;
 
+}
+#projects-container h4{
+	text-align: center;
 }
 #waterloo{
 	background-image: url(images/waterloo.png);
