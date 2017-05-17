@@ -287,19 +287,24 @@ h2{
 #slice{
 	background-image: url(images/slice.png);
 	background-size: 100%;
-	background-position: top;
+		background-size: auto 95%;
+	background-repeat: no-repeat;
 }
 #soar{
 	background-image: url(images/soar.png);
 }
 #deltadiet{
-	background-image: url(images/deltadiet.jpg);
+	background-image: url(images/deltadiet.png);
+		background-size: auto 100%;
+	background-repeat: no-repeat;
 }
 #website{
 	background-image: url(images/web.png);
 	background-position: top;
 }
 #quickpic{
+	background-size: auto 95%;
+	background-repeat: no-repeat;
 	background-image: url(images/quikpic.png);
 }
 #contact-container .col-sm-2, #contact-container .col-sm-4{
