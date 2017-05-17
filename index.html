@@ -15,8 +15,15 @@
 <script type="text/javascript">
 //<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:100" rel="stylesheet"> 
 //var $ = require('node_modules/jquery/dist/jquery');
+
+		
+
+
+	
+
 $(function()
 {
+
 	$('.loic').click(function(){
 	console.log("works");
 	});
@@ -134,7 +141,7 @@ $(function()
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>		
-					<a class="navbar-brand" href="index.html">Loïc Murumba</a>
+					<a class="navbar-brand" href="#navbar-space">Loïc Murumba</a>
 
 
 				</div>
@@ -173,7 +180,7 @@ $(function()
 		</nav>
 
 		<section class="main-container">
-		<div class="navbar-space"></div>
+		<div id="navbar-space"></div>
 			<div class="container-fluid jumbo-holder">
 				<div class="jumbotron">
 					<h1 class="title-text">Loïc Murumba</h1>
@@ -193,7 +200,7 @@ $(function()
 					<h4 class="project-name">Slice</h4>
 					<p class="project-description">Real time online multiplayer only; uses a nodejs server and web sockets to quickly transmit game data to all clients. Client-side game programmed using HTML canvas and Javascript. Still in progress! Most of the backend is done, the game mechanics just need to be fleshed out</p>
 
-					<div class="github-link" onclick="window.open('http://google.pl', '_blank');">
+					<div class="github-link" onclick="window.open('https://github.com/loicmurumba/slice', '_blank');">
 						
 					</div>
 					</div>
@@ -201,14 +208,14 @@ $(function()
 						<div class="project-image" id="soar"></div>
 						<h4 class="project-name">Soar</h4>
 						<p class="project-description">Platformer programmed in android studio using Java; implements a real-time database to keep track of the worldwide high score and reports it to every user. Available on the Google Playstore</p>
-						<div id="playstore" onclick="window.open('http://google.pl', '_blank');"></div>
-						<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
+						<div id="playstore" onclick="window.open('https://play.google.com/store/apps/details?id=me.loicmurumba.soar', '_blank');"></div>
+						<div class="github-link" onclick="window.open('https://github.com/loicmurumba/Bounce', '_blank');"></div>
 					</div>
 					<div class="col-md-4 white" id="website-container">
 						<div class="project-image" id="website"></div>
 						<h4 class="project-name">Portfolio Website</h4>
 						<p class="project-description">The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, Bootstrap, and JQuery to bring this to life. It took a few weeks and quite a bit of trial and error to get every detail working; hopefully you're enjoying it! </p>
-						<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
+						<div class="github-link" onclick="window.open('https://github.com/loicmurumba/loicmurumba.github.io', '_blank');"></div>
 						
 					</div>
 				</div>
@@ -217,14 +224,14 @@ $(function()
 							<div class="project-image" id="deltadiet"></div>
 							<h4 class="project-name">Delta Diet</h4>
 							<p class="project-description">Works as a tracker for your daily macronutrients that can be fine tuned by a doctor. I created this with the help of a few students at a hackathon and learned a lot about android studio.</p>
-								<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
+								<div class="github-link" onclick="window.open('https://github.com/jameslbonifacio/DeltaHacks3', '_blank');"></div>
 						</div>
 					
 						<div class="col-md-4 black" id="quickpic-container">
 							<div class="project-image" id="quickpic"></div>
 							<h4 class="project-name">QuickPic</h4>
 							<p class="project-description">A chrome extension that reduces the image load time on websites your browser visits by sending them to an external server before they're loaded. The server would then lower the image resolution for a faster browsing experience. I learned a lot more about node.js and javascript functions in the process.</p>
-							<div class="github-link" onclick="window.open('http://google.pl', '_blank');"></div>
+							<div class="github-link" onclick="window.open('https://github.com/loicmurumba/picloadextension', '_blank');"></div>
 						</div>
 						
 				</div>
@@ -236,7 +243,7 @@ $(function()
 					</div>
 				</div>
 
-				<div class="row first-row">
+				<div class="row first-row row-left">
 					<div class="col-xs-3 col-xs-offset-1">
 						<div class="image" id="logiq3"></div>
 					</div>
@@ -252,7 +259,7 @@ $(function()
 					</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row row-right">
 					<div class="col-xs-3 col-xs-offset-2">
 						<div class="image" id="waterloop"></div>
 					</div>
@@ -267,7 +274,7 @@ $(function()
 					</p>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row row-left">
 					<div class="col-xs-3 col-xs-offset-1">
 						<div class="image" id="midsun"></div>
 					</div>
@@ -281,7 +288,7 @@ $(function()
 					</p>
 					</div>
 					</div>
-				<div class="row">
+				<div class="row row-right">
 					<div class="col-xs-3 col-xs-offset-2">
 						<div class="image" id="mlh"></div>
 					</div>
@@ -308,7 +315,7 @@ $(function()
 
 				</div>
 
-				<div class="row first-row">
+				<div class="row first-row row-left">
 					<div class="col-xs-3 col-xs-offset-1">
 						<div class="image" id="waterloo"></div>
 					</div>
@@ -326,7 +333,7 @@ $(function()
 					</div>
 				</div>
 				
-				<div class="row">
+				<div class="row row-right">
 					<div class="col-xs-3 col-xs-offset-2">
 						<div class="image" id="horatio"></div>
 					</div>
@@ -354,17 +361,17 @@ $(function()
 				</div>
 				<div class="contact-links contact-texts">
 				<div class="row">
-					<div class="col-xs-2 col-xs-offset-4" id="github-container">
+					<div class="col-sm-2 col-sm-offset-4" id="github-container">
 					<div class="contact-image" id="github"></div>
-						<a class="contact-link" href="">Github</a>
+						<a class="contact-link" href="https://github.com/loicmurumba">Github</a>
 					</div>
-					<div class="col-xs-2" id="linkedin-container">
+					<div class="col-sm-2" id="linkedin-container">
 					<div class="contact-image" id="linkedin"></div>
-						<a class="contact-link" href="">LinkedIn</a>
+						<a class="contact-link" href="https://www.linkedin.com/in/loic-murumba-95b50b134/">LinkedIn</a>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-4 col-xs-offset-4">
+					<div class="col-sm-4 col-sm-offset-4">
 					<div class="contact-image" id="email"></div>
 						
 						<a class="contact-link" href="mailto:">lmurumba@edu.uwaterloo.ca</a>
