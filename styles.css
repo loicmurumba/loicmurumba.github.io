@@ -45,11 +45,15 @@ width: 100%;
 }
 .project-image{
 	height: 30%;
-background-size: cover;
+    background-size: cover;
 	width: 100%;
 	border: solid 2px white;
 	margin: 0 auto;
 	margin-top: 8%;
+}
+
+.black .project-image{
+	border: solid 2px black;	
 }
 .contact-texts{
 	text-align: center;
