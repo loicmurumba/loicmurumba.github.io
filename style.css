@@ -23,11 +23,35 @@ h1{
 }
 .container{
   width:80%;
-  top: 50px;
+  margin-top: 50px;
   position: relative;
 
 }
+.intro-link:hover{
+  /* text-decoration: none; */
+  color: rgb(168,216,240);
+}
 .color1{
   color: rgb(168,216,240);
-
+}
+.color2{
+  color: #e05770;
+}
+.contact-icon{
+  text-decoration: none;
+  font-size: 36px;
+  color:  #e05770;
+  margin-right: 10px;
+}
+.contact-icon:hover{
+  text-decoration: none;
+  color: rgb(168,216,240);
+}
+.btn{
+  background-color: rgb(168,216,240);
+  color: white;
+}
+.btn:hover{
+  background-color: #e05770;
+  color: white;
 }
