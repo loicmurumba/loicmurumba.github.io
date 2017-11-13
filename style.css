@@ -48,6 +48,7 @@ h1{
   transition: color .3s ease-in-out;
 }
 .btn{
+  margin-top:30px;
   background-color: rgb(168,216,240);
   color: white;
   transition: background-color .3s ease-in-out;
