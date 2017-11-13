@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+ 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
+
+<link rel="icon" type="image/png" href="icon.png">
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+
+<script type="text/javascript">
+//<link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto:100" rel="stylesheet"> 
+//var $ = require('node_modules/jquery/dist/jquery');
+
+		
+
+
+	
+
+$(function()
+{
+
+	$('.loic').click(function(){
+	console.log("works");
+	});
+	//var cw = $('.image').width();
+	//$('.image').css({'height':cw+'px'});
+
+		$('.navbar').hover(function(){
+		
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,0.9)"
+			});
+	
+	},function(){
+		$(".navbar").css({
+				 "background-color": "rgba(0,0,0,.4)"
+			});
+	})
+
+	$('.nav-link').hover(function(){
+		$(this).css({
+				 "background-color": "rgba(255,255,255,0.4)"
+			});
+	},function(){
+				$(this).css({
+				 "background-color": "rgba(0,0,0,0)"
+			});
+	})
+
+    $('.github-link').hover(function(){
+		var width = $(this).width();
+		var height = $(this).height();
+		console.log(width);
+		$(this).css({
+				"width": "50px",
+				"height": "50px"
+			});
+	
+	},function(){
+		var width = $(this).width();
+		var height = $(this).height();
+		$(this).css({
+				 "width":"40px",
+				 "height": "40px"
+			});
+	})
+  $('#playstore').hover(function(){
+		var width = $(this).width();
+		var height = $(this).height();
+		console.log(width);
+		$(this).css({
+				"width": "120px",
+				"height": "50px"
+			});
+	
+	},function(){
+		var width = $(this).width();
+		var height = $(this).height();
+		$(this).css({
+				 "width":"100px",
+				 "height": "40px"
+			});
+	})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  $('a').click(function() {
+  	console.log("test");
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+</script>
+
+
+
+<title>Loic Murumba</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+	<body>
+		
+
+		<nav id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid ">
+				<div class="navbar-header">
+
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target = "#navbar-div">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>		
+					<a class="navbar-brand" href="#navbar-space">Loïc Murumba</a>
+
+
+				</div>
+					
+			<div id="navbar-div" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a class="nav-link" href="#projects-container">
+							Projects
+						</a>
+					</li>
+					<li>
+						<a class="nav-link" id="long" href="#workexperience-container">
+							Work Experience
+						</a>
+					</li>
+
+					<li>
+						<a class="nav-link" href="#academia-container">
+							Academia
+						</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#contact-container">
+							Contact
+						</a>
+					</li>
+					<li>
+						<a class="nav-link" href="loicmurumba_resume.pdf">
+							Resume
+						</a>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+
+		<section class="main-container">
+		<div id="navbar-space"></div>
+			<div class="container-fluid jumbo-holder">
+				<div class="jumbotron">
+					<h1 class="title-text">Loïc Murumba</h1>
+					<h3 class="title-text">Electrical and Computer Engineering</h3>
+				</div>
+
+			</div>
+
+			<div class="container-fluid section-container" id="projects-container">
+				<div id="projects-title">
+					<h2>Projects</h2>
+				</div>
+				<div class="row">
+					<div class="col-md-4 white" id="slice-container">
+
+					<div class="project-image" id="slice"></div>
+					<h4 class="project-name">Slice</h4>
+
+					<p class="project-description"><strong>In Progress </strong></br>Real time online multiplayer combat game; uses a nodejs server and web sockets to quickly transmit game data to all clients. Client-side game programmed using HTML canvas and Javascript. Backend mostly complete, currently working on mechanics.</p>
+
+					<div class="github-link" onclick="window.open('https://github.com/loicmurumba/slice', '_blank');">
+						
+					</div>
+					</div>
+					<div class="col-md-4 white" id="soar-container">
+						<div class="project-image" id="soar"></div>
+						<h4 class="project-name">Soar</h4>
+						<p class="project-description"><strong>Complete </strong></br>Challenging platformer programmed in android studio using Java; implements a real-time database to keep track of the worldwide high score and reports it to every user. Available on the Google Playstore.</p>
+						<div id="playstore" onclick="window.open('https://play.google.com/store/apps/details?id=me.loicmurumba.soar', '_blank');"></div>
+						<div class="github-link" onclick="window.open('https://github.com/loicmurumba/Bounce', '_blank');"></div>
+					</div>
+					<div class="col-md-4 white" id="website-container">
+						<div class="project-image" id="website"></div>
+						<h4 class="project-name">Portfolio Website</h4>
+						<p class="project-description"><strong>Complete </strong></br>The website you're currently browsing! I learned a lot about design in the process and used CSS, HTML, Javascript, Bootstrap, and JQuery to bring this to life; hopefully you're enjoying it! </p>
+						<div class="github-link" onclick="window.open('https://github.com/loicmurumba/loicmurumba.github.io', '_blank');"></div>
+						
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-md-4 black" id="deltadiet-container">
+							<div class="project-image" id="deltadiet"></div>
+							<h4 class="project-name">Delta Diet</h4>
+							<p class="project-description"><strong>Complete </strong></br>Android app that works as a tracker for your daily macronutrients that can be fine tuned by a doctor. Created this with the help of a few students at a hackathon and learned a lot about android studio.</p>
+								<div class="github-link" onclick="window.open('https://github.com/jameslbonifacio/DeltaHacks3', '_blank');"></div>
+						</div>
+					
+						<div class="col-md-4 black" id="quickpic-container">
+							<div class="project-image" id="quickpic"></div>
+							<h4 class="project-name">QuickPic</h4>
+							<p class="project-description"><strong>In Progress </strong></br>A chrome extension that reduces bandwidth used by sending them to an external server before they're loaded. The server would then lower the image resolution for a faster browsing experience. I learned a lot more about node.js and javascript functions in the process.</p>
+							<div class="github-link" onclick="window.open('https://github.com/loicmurumba/picloadextension', '_blank');"></div>
+						</div>
+						
+				</div>
+			</div>
+			<div class="container-fluid section-container acad-workex" id="workexperience-container">
+				<div class="section-title" id="workexperience-title"> 
+					<div class="darken-bg">
+					<h2>Work Experience</h2>
+					</div>
+				</div>
+
+				<div class="row first-row row-left">
+					<div class="col-xs-3 col-xs-offset-1">
+						<div class="image" id="midsun"></div>
+					</div>
+					<div class="col-xs-6">
+					<h3>Midnight Sun Solar Car Team</h3>
+					<h4>Web Developer<em> // Fall 2016 - Present</em></h4>
+					<p>
+						<ul>
+							<li> Re-structured the website design using CSS, jQuery, bootstrap, and Javascript</li>
+							<li> Communicated with marketing team to ensure the changes fit their needs</li>
+							<li> Design changes reviewed, perfected, and pushed to production.</li>
+						</ul>
+					</p>
+					</div>
+				</div>
+				<div class="row row-right">
+					<div class="col-xs-3 col-xs-offset-2">
+						<div class="image" id="waterloop"></div>
+					</div>
+					<div class="col-xs-6">
+					<h3>Waterloo Hyperloop Team</h3>
+					<h4>Software and Electrical team member<em> // Fall 2016 - Present</em></h4>
+					<p>
+						<ul>
+							<li>Designing dashboard that graphically displays various statistics and updates in real-time based on output from the hyperloop pod's sensors</li>
+							<li>Programming backend communication using websockets to connect dashboard to Go server</li>
+							<li>Built and helped design circuits to help power and control different components of the car</li>
+						</ul>
+					</p>
+					</div>
+				</div>
+				<div class="row row-left">
+					<div class="col-xs-3 col-xs-offset-1">
+						<div class="image" id="logiq3"></div>
+					</div>
+					<div class="col-xs-6">
+					<h3>LOGiQ3</h3>
+					<h4>IT Analyst <em> // Winter 2017</em></h4>
+					<p> 
+						<ul>
+							<li>Increased efficiency by introducing automated system to parse and assign service requests within IT team   </li>
+							<li>Reduced cost of external IT consultants by automating service request assignment   </li>
+							<li>Acquired professional communication skills while providing tech support to coworkers </li>
+							<li>Worked on advertising project for marketing team using JavaScript, HTML, and CSS </li>
+						</ul>
+						</br>
+					</p>
+				</div>
+				<!--
+				<div class="row">
+
+					<div class="col-xs-3 col-xs-offset-2">
+						<div class="image" id="mlh"></div>
+					</div>
+					<div class="col-xs-6">
+						<h3>Major League Hacking</h3>
+						<h4>Volunteer-Mentor<em>// March 2017</em></h4>
+						<p>
+						 	<ul>
+								<li>Helped participants complete projects by sharing technical knowledge on various programming languages and frameworks</li>
+								<li>Organized games/ice-breakers to give out prizes to contestants</li>
+							</ul>
+						 </p>	
+					</div>
+
+				</div>
+				-->
+
+				</div>
+
+			</div>
+			<div class="container-fluid section-container acad-workex" id="academia-container">
+				<div class="section-title" id="academia-title"> 
+				<div class="darken-bg">
+					<h2>Academia</h2>
+					</div>
+
+				</div>
+
+				<div class="row first-row row-left">
+					<div class="col-xs-3 col-xs-offset-1">
+						<div class="image" id="waterloo"></div>
+					</div>
+					<div class="col-xs-6">
+					<h3>University of Waterloo</h3>
+					<h4><em>2016 - Present</em></h4>
+					<p>
+						<ul>
+							<li>Pursuing Bachelor of Applied Science in Electrical Engineering </li>
+							<li>Ranked 23/155 for 1A academic term </li>
+							<li>Active member of two student design teams</li> 
+							<li>Scored 100% in fundamentals of programming class (C++)</li>
+						</ul>
+					</p>
+					</div>
+				</div>
+				
+				<div class="row row-right">
+					<div class="col-xs-3 col-xs-offset-2">
+						<div class="image" id="horatio"></div>
+					</div>
+					<div class="col-xs-6">
+					<h3>Awards</h3>
+				
+					<p>
+						<ul>
+							<li>Elected class valedictorian</li> 
+							<li>Named 1 of 85 Horatio Alger National Scholars for academic excellence and overcoming adversity</li> 
+							<li>Earned uWaterloo's President's Scholarship of Distinction for +95% entrance avg.</li> 
+							<li>Won Richard and Elizabeth Madter's Entrance Scholarship for participation in extracurricular activities</li>
+						</ul>
+					</p>
+					</div>
+				</div>
+				
+
+
+
+			</div>
+			<div class="container-fluid section-container" id="contact-container">
+				<div class="section-title" id="contact-title"> 
+					<h2>Contact</h2>
+				</div>
+				<div class="contact-links contact-texts">
+				<div class="row">
+					<div class="col-sm-2 col-sm-offset-4" id="github-container">
+					<div class="contact-image" id="github"></div>
+						<a class="contact-link" href="https://github.com/loicmurumba">Github</a>
+					</div>
+					<div class="col-sm-2" id="linkedin-container">
+					<div class="contact-image" id="linkedin"></div>
+						<a class="contact-link" href="https://www.linkedin.com/in/loic-murumba-95b50b134/">LinkedIn</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4 col-sm-offset-4">
+					<div class="contact-image" id="email"></div>
+						
+						<a class="contact-link" href="mailto:">lmurumba@edu.uwaterloo.ca</a>
+					</div>
+				</div>
+				</div>
+
+			</div>
+
+
+
+
+
+
+
+
+		</section>
+	</body>
+</html>
