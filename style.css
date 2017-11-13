@@ -19,7 +19,7 @@ h1{
 }
 .intro{
   font-size: 20px;
-  margin-top: 30px;
+  margin: 30px auto;
 }
 .container{
   width:80%;
@@ -47,13 +47,18 @@ h1{
   color: rgb(168,216,240);
   transition: color .3s ease-in-out;
 }
-.btn{
+.button{
   margin-top:30px;
+  padding: 15px;
+  font-size: 18px;
+  text-decoration: none;
   background-color: rgb(168,216,240);
   color: white;
+  border-radius: 3px;
   transition: background-color .3s ease-in-out;
 }
-.btn:hover{
+.button:hover{
+  text-decoration: none;
   background-color: #e05770;
   color: white;
 }
