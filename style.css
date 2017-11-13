@@ -1,0 +1,33 @@
+.profile{
+  height: 300px;
+  width: 300px;
+  /* background-position: center;
+  background-position-y: center; 
+  background-position-x: center;  */
+  
+  border-radius:100%; 
+  background: url('profile_.jpg');
+  /* background-size: cover; */
+  background-position: center;
+  background-size: cover;
+  margin: 10px auto;
+  border: 1px solid rgb(168,216,240);
+  /* float: right; */
+}
+h1{
+  font-size: 48px;
+}
+.intro{
+  font-size: 20px;
+  margin-top: 30px;
+}
+.container{
+  width:80%;
+  top: 50px;
+  position: relative;
+
+}
+.color1{
+  color: rgb(168,216,240);
+
+}
