@@ -28,7 +28,6 @@ h1{
 
 }
 .intro-link:hover{
-  /* text-decoration: none; */
   color: rgb(168,216,240);
 }
 .color1{
@@ -46,10 +45,12 @@ h1{
 .contact-icon:hover{
   text-decoration: none;
   color: rgb(168,216,240);
+  transition: color .3s ease-in-out;
 }
 .btn{
   background-color: rgb(168,216,240);
   color: white;
+  transition: background-color .3s ease-in-out;
 }
 .btn:hover{
   background-color: #e05770;
