@@ -1,18 +1,18 @@
 .profile{
   height: 300px;
   width: 300px;
-  /* background-position: center;
-  background-position-y: center; 
-  background-position-x: center;  */
-  
   border-radius:100%; 
   background: url('profile_.jpg');
-  /* background-size: cover; */
   background-position: center;
   background-size: cover;
   margin: 10px auto;
   border: 1px solid rgb(168,216,240);
-  /* float: right; */
+}
+@media (max-width: 550px){
+  .profile{
+    height: 200px;
+    width: 200px;
+  }
 }
 h1{
   font-size: 48px;
