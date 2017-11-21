@@ -25,25 +25,38 @@ h1{
   height: auto;
 }
 .proj-card{
-  border: 1px solid rgba(0, 0, 0, 0.16);
+  border: 2px solid rgba(0, 0, 0, 0.16);
   margin-right: 15px; 
   border-radius: 3px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.19); 
-  transition: box-shadow ease-in-out .3s;
+  transition: box-shadow ease-in-out .3s, transform ease-in-out .3s, border ease-in-out .3s;
+  transform: scale(0.97);
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
 }
 .proj-card:hover h5{
   color:  #e05770;
+
 } 
 .proj-card:hover{ 
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(224, 87, 112, 0.56);
+  transform: scale(1);
 }
+
 .proj-text{
   padding: 15px;
+
   border-top: 1px solid rgba(0, 0, 0, 0.16);
 }
 .proj-text h3{
   margin-top: 0px;
+}
+.contact-header{
+  margin-bottom: 0;
+}
+.in-progress{
+  color: rgb(168,216,240);
+  font-size: 16px;
 }
 .col-md-4{
   padding: 0;
@@ -69,7 +82,7 @@ h1{
   color: #e05770;
 }
 .cards-container{
-  margin-top: 25px;
+  margin-top: 45px;
 }
 .contact-icon{
   text-decoration: none;
