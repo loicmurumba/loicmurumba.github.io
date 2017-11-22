@@ -30,23 +30,31 @@ h1{
   border-radius: 3px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.19); 
   transition: box-shadow ease-in-out .3s, transform ease-in-out .3s, border ease-in-out .3s;
-  transform: scale(0.97);
+  transform: scale(0.98);
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
 }
 .proj-card:hover h5{
   color:  #e05770;
 
+}
+.project p{
+  font-size: 18px;
 } 
 .proj-card:hover{ 
   box-shadow: 0 14px 20px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  border: 1px solid rgba(224, 87, 112, 0.56);
+  border: 2px solid rgba(224, 87, 112, 0.56);
   transform: scale(1);
 }
 
 .proj-text{
   padding: 15px;
-
+  color: #000;
+  text-decoration: none;
   border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+.proj-text:hover{
+  text-decoration: none;
+  
 }
 .proj-text h3{
   margin-top: 0px;
@@ -72,7 +80,7 @@ h1{
   position: relative;
 
 }
-.intro-link:hover{
+.text-link:hover{
   color: rgb(168,216,240);
 }
 .color1{
@@ -82,7 +90,7 @@ h1{
   color: #e05770;
 }
 .cards-container{
-  margin-top: 45px;
+  margin-top: 30px;
 }
 .contact-icon{
   text-decoration: none;
@@ -111,6 +119,9 @@ h1{
   background-color: #e05770;
   color: white;
 }
-a:visited{
+a:visited, a:active,div > a:hover{
   text-decoration: none;
+}
+.contact-links{
+  margin-bottom: 30px;
 }
