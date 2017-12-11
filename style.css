@@ -14,6 +14,16 @@
     width: 200px;
   }
 }
+img.img-frame{
+  max-height: 300px;
+  max-width: 300px;
+}
+div.img-frame{
+  margin: 20px auto;
+  width: fit-content;
+  padding: 5px;
+  border: solid 1px black;
+}
 h5 {
   transition: color ease-in-out .3s;
 }
