@@ -1,0 +1,508 @@
+
+@font-face {
+	font-family:"SD Georgia Light";
+src:url("SD_Georgia_Light.eot?") format("eot"),url("SD_Georgia_Light.woff") format("woff"),url("SD_Georgia_Light.ttf") format("truetype"),url("SD_Georgia_Light.svg#SDGeorgiaLight") format("svg");
+font-weight:normal;
+font-style:normal;}
+@font-face {
+    font-family: 'geometria_lightlight';
+    src: url('geometria-light-webfont.eot');
+    src: url('geometria-light-webfont.ttf') format('truetype'),
+         url('geometria-light-webfont.svg#geometria_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'antic';
+    src: url('antic-didone.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a.b {
+	float : right;
+	color:#000;
+transition: background-color .4s ease-in-out;
+transition: font-size .8s ease-in-out;
+transition: color .4s ease-in-out;
+transition: width .3s ease-in-out;
+	text-decoration-color: black;
+	padding: 0 10px;
+	text-decoration: none;
+	margin-right: 0; 
+	width:70px;
+	height: 80px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 80px;
+	font-size: 16px;
+	font-weight: 700;
+	font-variant: small-caps;
+}
+
+
+h1{
+	font-family: 'geometria_lightlight';
+}
+#title-loic{
+	top:20%;
+}
+#l{
+	width:120px;
+}
+.frt{
+	color: white;
+	position: absolute;
+	margin: 0;
+	font-size: 2em;
+	
+	top: 50%;
+
+    transform: translateY(-50%);
+	width: 100%;
+	font-weight: 100;
+	text-align: center;
+
+	font-family: 'geometria_lightlight';
+	font-family: 'Roboto';
+	font-weight: 200;
+}
+.lower{
+	transform: translateY(50px);
+}
+.sh{
+	width: 100%;
+margin: 0px;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+}
+
+h3.frt{
+	font-size: 1em;
+	top:30%;
+
+}
+.loic{
+	position: absolute;
+	left: 5%;
+	margin: 0;
+	height: 100%;
+	line-height: 80px;
+	font-weight: 100; 
+	font-family: 'antic';
+	color: rgba(0,0,0,0);
+	transition: color .4s ease-in-out;
+	font-size: 2em;
+}
+.col{
+color:#000;
+}
+a.b:hover{
+	background-color: rgba(255,255,255,.1);
+	width: 90px;
+}#l:hover{
+	width: 130px;
+
+}
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+	
+}
+.navbar{
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+	position:fixed;
+	transition: background-color .3s ease-in-out;
+	padding-right:0px;
+	width: 100%;
+	top:0;
+	right:0;
+	min-width: 700px;
+	background-color: rgba(0,0,0,0);
+}
+.bar{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 55%;
+	position: absolute;
+	top:0px;
+	background-image: url('city.JPG'); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: 100%;
+	border-bottom:solid 3px white;
+}
+.abt{
+		font-family: 'geometria_lightlight';
+}
+div.abt{
+	position: absolute;
+	top:55%;
+	border-top: solid black 2px;
+	border-bottom: solid black 2px;
+	margin: 0 auto;
+	text-align: center;
+	height: 45%;
+	/*background: linear-gradient(to bottom left, rgba(240,220,250,1), rgba(215,210,255,1)); */
+}
+h2.cen{ 
+	position:relative;
+	text-align: center;
+	top:15%;
+	padding:  0 10%;
+	margin: 0 20%;
+	padding-bottom: 5px;
+	font-size: 1.7em;
+	border-bottom: solid 1px;
+ }
+p.abt{
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	top:20%;
+	font-size: 1.2em;
+
+}
+p{
+
+	margin-top: 5px;
+}
+h4{
+
+	margin-bottom: 5px;
+	margin-top: 0px;
+	top:0;
+	position: relative;
+}
+.aca-banner{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	min-height: 100px;
+	height: 25%;
+	position: absolute;
+	top:365%;
+	border-top: solid black 2px;
+	background-image: url('desks.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+em{
+	font-weight: 100;
+}
+.logo{
+	position: absolute;
+	width: 10vw;
+	height: 10vw;
+	top: 6vh;
+	background-color: rgba(0,0,0,0);
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+h4.time{
+font-size: .7em;
+color: rgba(255,255,255,.8);
+}
+#waterloo{
+	left: 2%;
+	background-image: url('waterloo.png');
+}
+#dover{
+	left:50%;
+	background-image: url('dbay.png');
+}
+#horatio{
+	width: 100%;
+	position: absolute;
+	
+	height:25%;
+	bottom: 30%;
+}
+#horati{
+	background-image: url('horatio.png');
+}
+#logiq{
+	left: 2%;
+	background-image: url('logiq3.png');
+}
+#waterloop{
+	left:50%;
+	background-image: url('mlh.png');
+
+}
+#midsun{
+
+		background-image: url('waterloop.png');
+
+}
+.texthold.award{
+	width:80%;
+
+}
+.aca{
+	width: 100%;
+	height: 75%;
+	top:390%;
+	min-width: 600px;
+	min-height: 400px;
+	background-color: #bbb;
+	position: absolute;
+	width: 100%;
+	border-top: solid #fff 2px;
+	/*background: linear-gradient(to bottom right, #107FC9, #49DDDD); 57160d/* Standard syntax */
+	background: linear-gradient(to bottom, #3B4054, #502924)
+}
+
+
+
+
+
+.subt{
+
+}
+.texthold{
+	position: absolute;
+	left:14%;
+	top:6vh;
+	width:34%;
+
+}
+p, .subt{
+	font-family: 'geometria_lightlight';
+	color: white;
+}
+#dove{
+	position: absolute;
+	left:62%;
+}
+.test{
+	position: relative;
+}
+#proj{
+	top:200%;
+	height: 25%;
+	background-image: url(qhack.jpg);
+	border-top: solid #fff 2px;
+}
+#projects{
+	top:225%;
+	height:140%;
+	overflow: hidden;
+
+	background: linear-gradient(to bottom right, #fff, #eee);
+	float:left;
+}
+#work{
+	background-image: url(workex.jpg);
+	top:100%;
+	border-top: solid black 2px;
+}
+#work-container{
+	background: linear-gradient(to top, #3B4054, #1085DE);
+	
+	top:125%;
+	border-bottom: solid white 2px;
+}
+#projects-container{
+	height: 100%;
+	
+	
+	width:85%;
+		margin:0 auto;
+	padding: 0;
+}
+#slide{
+	position: absolute;
+	height: 100%;
+
+	top:40%;
+	margin:0;
+	padding: 0;
+	transition: top 1s ease-in-out;
+	width: 100%;
+
+}
+.proj-link{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	text-decoration: none;
+	color: black;
+	transition: color .3s ease-in-out;
+	font-weight: 700;
+	font-size: 14px;
+	font-family: 'PT Serif';
+}
+div{
+
+}
+
+.pros{
+	
+		transition: box-shadow .3s ease-in-out;
+	display: inline;
+	float:left;
+		transition: width .3s ease-in-out;
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	margin-top: 2.2%;
+	margin-left: 2.2%;
+	width: 350px;
+	height: 45%;
+	box-shadow: 0px 3px 10px 0px #aaa;
+
+}
+.items{
+
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	margin:0;
+	height: 45%;
+	border: solid #555 1px;
+	background-color: #fff;
+	border-bottom: solid #555 0px;
+}
+.items.desc{
+	margin-top: 0;
+	height: 55%;
+	overflow: hidden;
+	background-color: #fff;
+	border: solid #555 1px;
+}
+ .desc > h4{
+ 	width: 100%;
+ 	text-align: center;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	border-bottom: solid #555 1px;
+ 	color: #fff;
+ 	font-size: 1.3em;
+ 	font-weight: 100;
+ 	background-color: #555;
+ 	margin: 0;
+ 	font-family: "PT Serif";
+ } .desc > p{
+ 	margin: 0;
+ 	font-weight: 700;
+ 	font-size: 100%;
+ 	padding:10px 15px;
+ 	padding-bottom: 5px;
+ 	line-height: 110%;
+ 	color: #000;
+ 	font-family: 'Roboto', sans-serif;
+ }
+ p{
+ 	font-family: 'Roboto', sans-serif;
+ 	line-height: 160%;
+ }
+ #soar{
+background-image: url(soar.png);
+}
+ #slice{
+background-image: url(slice.png);
+}
+#delt{
+background-image: url(deltadiet.jpg);
+}
+#quikpic{
+background-image: url(quikpic.png);
+background-size: 60% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+#pw{
+	background-image: url(web.png);
+}
+footer{
+	position: absolute;
+	background-color: #1085DE;
+	top: 465%;
+	width: 100%;
+	height: 40%;
+}
+.foot{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(contact.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	border-top: solid white 2px;
+}
+.contact{
+	width: 100%;
+	text-align:center;
+	color: white;
+	position: relative;
+	top: 10%;
+	font-weight: 100;
+	font-family: 'antic';
+	font-size: 2em;
+	padding-bottom: 5px;
+	margin: 0;
+	margin-top: 3%;
+
+	border-bottom: solid white 1px;
+}
+a.links{
+	position: relative;
+float: left;
+margin: 0;
+padding-left: 17px;
+color: white;
+font-size: 125%;
+font-family: 'antic';
+text-decoration: none;
+}
+a.links:hover{
+	background-color: rgba(0,0,0,0);
+	text-decoration: underline;
+}
+#line{
+	position: relative;
+	left: 20%;
+	width: 60%;
+	margin-bottom: 0;	
+}
+.infoc{
+	margin-top:2%; 
+	margin-bottom: 15px;
+	display: block;
+	overflow: hidden;
+	left: 30%;
+	width: 50%;
+	position: relative;
+clear: both;
+
+}
+.icon{
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+	width: 20px;
+	background-size: 100% 100%;
+}
+#git{
+background-image: url(git.png);
+}
+#linked{
+background-image: url(linked.png);
+}
+#email{
+	background-image: url(email.png);
+}

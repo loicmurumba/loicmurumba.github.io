@@ -1,0 +1,363 @@
+
+@font-face {
+    font-family: 'antic';
+    src: url('fonts/antic-didone.regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#navbar-space{
+	
+	margin: 0;
+}
+.container-fluid .jumbotron{
+	margin: 0px;
+	padding: 0px;
+	background-image: url('banner.jpg'); 
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	border-radius: 0;
+	border-bottom:solid 2px black;
+color:#fff;
+width: 100%;
+}
+.row{
+	width: 100%;
+	margin:0;
+}
+#soar-container{
+	background-color: #8e8687;
+}
+#website-container{
+	background-color: #223270;
+}
+#quickpic-container{
+	background-color: #89ccff;
+}
+#deltadiet-container{
+	background-color: #ddd;
+}
+#projects-container{
+	background-color:white;
+	padding-bottom:0;
+}
+.project-image{
+	height: 30%;
+    background-size: cover;
+	width: 100%;
+	border: solid 2px white;
+	margin: 0 auto;
+	margin-top: 8%;
+}
+
+.black .project-image{
+	border: solid 2px black;	
+}
+.contact-texts{
+	text-align: center;
+}
+.section-container .col-md-4{
+	background-color: #e05770;
+	height: 350px;
+	overflow: hidden;
+	padding-right:5%;
+	padding-left: 5%;
+}
+#navbar-div li a{
+ line-height: 80px;
+ padding: 0 15px;
+ font-size: .85em;
+ transition: background-color .3s ease-in-out;
+ transition: width .3s ease-in-out;
+ width: 80px;
+ font-weight: 100;
+ text-transform: uppercase;
+ height: 80px;
+
+ text-align: center;
+ color: white;
+}
+.navbar .container-fluid{
+padding: 0;
+
+}
+#navbar{
+		background-color: rgba(0,0,0,0.3);
+}
+.navbar-default{
+	background-color: rgba(0,0,0,0);
+}
+#navbar-div{
+	 background-color: rgba(0,0,0,.3);
+	padding: 0 20px;
+	 border-top:0; 
+}
+#navbar-div #long{
+	width: 150px;
+}
+#navbar-div a:hover{
+	background-color: rgba(255,255,255,.1);
+	width: 100px;
+}#navbar-div #long:hover{
+	width: 170px;
+
+}
+p, h1, h2, h3, h4, a{
+	font-family: 'Roboto';
+}
+ .navbar-default .navbar-brand{
+ 	font-family: 'antic';
+ 	font-size: 2em;
+	color: white;
+	padding-left: 40px; 
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 80px;
+}
+.navbar{
+	height : 80px;
+	
+ transition: background-color .3s ease-in-out;
+
+}
+#projects-title h2{
+	text-align: center;
+	padding: 50px;
+	font-weight: 400;
+
+}
+.navbar-header{
+	height: 80px;
+}
+.darken-bg{
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,0,0,.5);
+}
+.jumbotron h1{
+	margin:0;
+	padding-top:350px;
+	font-weight: 700;
+}
+.container-fluid.jumbo-holder{
+	padding: 0;
+
+}
+.section-title h2{
+	text-align: center;
+	padding: 50px;
+	color: white;
+	font-weight: 100;
+
+}
+#workexperience-title{
+	background-image: url(images/workex.jpg);
+}
+#academia-title{
+	background-image: url(images/desk.jpg);
+}
+#contact-title{
+	background-image: url(images/contact.jpg);
+	border-bottom: solid 1px white;
+}
+#workexperience-container{
+	background: linear-gradient(to top, #3B4054, #1085DE);
+}
+#academia-container{
+	background: linear-gradient(to bottom, #3B4054, #502924)
+}
+.white{
+	color:white;
+}
+.black{
+	color: black;
+}
+.acad-workex .row{
+	margin-bottom: 20px;
+}
+.acad-workex p{
+	font-weight: 100;
+}
+
+.jumbotron h3{
+
+	margin: 0;
+	padding-bottom:100px; 
+}
+.row{
+	width: 100%;
+}
+.title-text{
+text-align: center;
+}
+.navbar{
+border:0;
+margin:0;
+}
+.github-link{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	bottom: 10px;
+	right: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+background-image: url(images/git.png);
+	
+}
+.black .github-link{
+	background-image: url(images/gitblack.png);
+}
+#playstore{
+	background-image: url(images/playstore.png);
+	left: 10px;
+	width: 100px;
+	position: absolute;
+	height: 40px;
+	bottom: 10px;
+	right: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.section-title{
+	border:solid 1px black;
+	border-left: 0;
+	border-right: 0;
+	margin: 0;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.section-container{
+	margin:0;
+	padding: 0;
+	padding-bottom: 40px;
+	}
+
+h2{
+	margin:0;
+}
+.first-row.row{
+	position: relative;
+	margin-top: 40px;
+}
+.col-xs-6 h3, .col-xs-6 h4, li{
+	color: white;
+}
+.acad-workex h4{
+	color: rgba(255,255,255,0.7);
+}
+.image{
+	width: 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 350px;
+	background-size: cover;
+	float: right;
+	padding-bottom: 60%;
+}
+#projects-container h4{
+	text-align: center;
+}
+#waterloo{
+	background-image: url(images/waterloo.png);
+
+}
+#waterloop{
+	background-image: url(images/waterloop.png);
+		background-size: 100%;
+}
+#midsun{
+	background-image: url(images/midsun.png);
+}
+#logiq3{
+	background-image: url(images/logiq3.png);
+}
+#mlh{
+	background-image: url(images/mlh.png);
+}
+#horatio{
+	background-image: url(images/horatio.png);
+}
+.project-image{
+	background-position: center;
+	background-size: 100%;
+}
+#slice{
+	background-image: url(images/slice.png);
+	background-size: 100%;
+		background-size: auto 95%;
+	background-repeat: no-repeat;
+}
+#soar{
+	background-image: url(images/soar.png);
+}
+#deltadiet{
+	background-image: url(images/deltadiet.png);
+		background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+#website{
+	background-image: url(images/web.png);
+	background-position: top;
+}
+#quickpic{
+	background-size: auto 95%;
+	background-repeat: no-repeat;
+	background-image: url(images/quikpic.png);
+}
+#contact-container .col-sm-2, #contact-container .col-sm-4{
+
+	background-color: #021114;
+	border-bottom: 0;
+	color: #fff;
+	text-decoration: none;
+	font-size-adjust: 200%;
+	height: 100px;
+
+}
+#contact-container .col-sm-4{
+
+
+	background-color: #020911;
+}
+
+#linkedin-container.col-sm-2{
+	border-left: 0;
+	border-top: 0;
+}
+#github-container.col-sm-2{
+	border-top: 0;
+}
+.contact-link{
+color: white;
+text-decoration: none;
+}
+#contact-container{
+
+	padding-bottom: 0;
+	background-color: #021719;
+}
+.contact-image{
+	margin: 10px auto;
+	height: 25px;
+	width: 25px;
+	top: 10%;
+		background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#github{
+	background-image: url(images/git.png);
+}
+#email{
+	background-image: url(images/email.png);
+}
+#linkedin{
+	background-image: url(images/linked.png);
+}

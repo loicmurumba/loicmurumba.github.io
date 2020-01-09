@@ -1,0 +1,27 @@
+{
+  "name": "loicmurumba.me",
+  "version": "1.0.0",
+  "description": "Portfolio website for Loic Murumba",
+  "main": "index.html",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loicmurumba/loicmurumba.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "portfolio"
+  ],
+  "author": "Loic Murumba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loicmurumba/loicmurumba.github.io/issues"
+  },
+  "homepage": "https://github.com/loicmurumba/loicmurumba.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
+  }
+}
